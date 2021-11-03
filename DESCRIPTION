@@ -36,3 +36,5 @@ Imports:
 Depends: 
     R (>= 2.10)
 VignetteBuilder: knitr
+URL: https://github.com/gongcastro/psicotwitteR
+BugReports: https://github.com/gongcastro/psicotwitteR/issues
