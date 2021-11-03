@@ -22,7 +22,7 @@ coverage](https://codecov.io/gh/gongcastro/psicotwitteR/branch/master/graph/badg
 
 Este es un paquete de R para la comunidad de Psicotwitter. Puedes
 consultar la documentación en la [página
-web](gongcastro.github.io/psicotwitteR).
+web](https://gongcastro.github.io/psicotwitteR/).
 
 ## Instalación
 
