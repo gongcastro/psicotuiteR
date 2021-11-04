@@ -1,0 +1,14 @@
+^psicotwitteR\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^README\.Rmd$
+^cran-comments\.md$
+^\.github$
+^data-raw$
+^.Rprofile$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^CODE_OF_CONDUCT\.md$
+^codecov\.yml$
+^_config.yml$

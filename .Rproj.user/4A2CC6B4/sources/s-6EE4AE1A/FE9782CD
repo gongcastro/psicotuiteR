@@ -1,0 +1,26 @@
+{
+    "id": "FE9782CD",
+    "path": "~/psicotwitteR/R/clima.R",
+    "project_path": "R/clima.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1636013059897.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "14,146",
+        "scrollLine": "6"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1636014539,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1636014539047,
+    "read_only": false,
+    "read_only_alternatives": []
+}

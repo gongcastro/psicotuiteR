@@ -1,0 +1,26 @@
+{
+    "id": "789074B6",
+    "path": "~/psicotwitteR/data-raw/clima.R",
+    "project_path": "data-raw/clima.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1636014659343.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "10,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1636014848,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1636014848877,
+    "read_only": false,
+    "read_only_alternatives": []
+}
