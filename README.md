@@ -36,3 +36,14 @@ web](https://gongcastro.github.io/psicotuiteR/).
 # install.packages("devtools")
 devtools::install_github("gongcastro/psicotuiteR")
 ```
+
+## Datos de la encuesta de Psicotuiter
+
+Una vez instalado del paquete, puedes cargar los datos de la encuesta sobre el clima de Psicotuiter de la siguiente forma:
+
+```r
+data("clima")
+```
+
+Y puede consultar la documentación sobre los datos con `?clima`.
+
