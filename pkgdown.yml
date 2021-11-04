@@ -2,5 +2,8 @@ pandoc: 2.7.3
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2021-11-04T15:27Z
+last_built: 2021-11-04T15:34Z
+urls:
+  reference: https://gongcastro.github.io/psicotuiteR/reference
+  article: https://gongcastro.github.io/psicotuiteR/articles
 
