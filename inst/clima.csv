@@ -1,0 +1,418 @@
+ID,Lugar,Genero,Psico1,Psico2,Psico3,Tw1,Tw2,TwPers,TwDivulg,TwAnonim,TwTuits,TwHilosDiv,TwHilosOt,TwRT,TwLike,TwResp,ExpTw1,ExpTw2,ExpTw3,ExpTw4,Comp1,Comp2_Verg,Comp2_Quediran,Comp2_Calidad,Comp2_Error,Comp2_Conf,Comp2_Nunca,Comp3_Divulg,Comp3_Apren,Comp3_DebCien,Comp3_DebPoli,Comp3_Pers,Comp3_Nunca,PsicoTw1,PsicoTw2,PsicoTw3
+1,Europa,Mujer,Posgrado,3,4,Mas de dos años,Varias veces al dia,4,3,0,5,3,3,4,5,4,5,4,3,3,"Si, alguna vez",0,1,0,0,1,0,0,0,1,1,1,0,Si,5,4
+2,Europa,Hombre,Posgrado,1,5,Mas de dos años,Varias veces al dia,4,2,3,2,0,0,5,5,4,3,3,5,3,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,1,1,0,Puede,0,4
+3,Europa,No binarie,Posgrado,4,3,Menos de un año,Varias veces por semana,4,2,1,4,1,0,5,4,4,2,3,3,1,"Si, muy a menudo",1,1,1,1,1,0,1,0,1,1,1,0,Si,3,4
+4,Europa,Hombre,Posgrado,4,3,Mas de dos años,Varias veces al dia,5,5,0,5,4,0,4,5,3,1,5,3,3,"Si, alguna vez",1,1,1,1,1,0,1,1,1,1,1,0,Si,4,4
+5,Europa,Hombre,Posgrado,5,1,Mas de dos años,Varias veces al dia,4,2,3,3,0,0,5,5,4,4,4,4,3,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,1,1,0,Puede,0,2
+6,Europa,Hombre,Profesion,5,3,Mas de dos años,Varias veces por semana,1,4,0,4,4,4,3,3,2,3,3,3,4,"Si, muy a menudo",1,0,0,0,1,0,1,0,0,1,1,0,Puede,3,3
+7,Latinoamerica,Hombre,Profesion,4,4,Mas de dos años,Varias veces al dia,4,3,0,5,4,3,2,4,5,4,4,4,4,"Si, alguna vez",0,0,1,0,1,0,1,1,1,0,1,0,Si,4,5
+8,Europa,Hombre,Profesion,5,4,Mas de dos años,Varias veces al dia,3,3,0,3,2,1,3,3,3,2,2,1,3,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Si,3,5
+9,Europa,Mujer,Grado,5,5,Mas de dos años,Varias veces al dia,4,1,0,4,0,3,5,5,3,1,5,4,5,"Si, muy a menudo",1,0,0,0,0,0,0,1,0,1,1,0,Si,3,3
+10,Europa,Hombre,Posgrado,4,3,Menos de dos años,Varias veces al dia,5,3,0,5,2,1,3,3,3,1,5,4,4,"Si, muy a menudo",0,1,1,1,1,0,1,0,1,1,0,0,Si,5,5
+11,Latinoamerica,Hombre,Grado,3,5,Menos de un año,Varias veces al dia,2,1,0,2,0,0,1,2,0,3,3,3,2,"Si, muy a menudo",0,0,0,1,0,0,0,1,0,0,1,0,Puede,2,3
+12,Europa,Hombre,Posgrado,4,2,Mas de dos años,Varias veces al dia,4,2,0,2,1,0,3,5,2,3,4,2,4,"Si, muy a menudo",0,1,1,1,1,0,1,1,1,0,0,0,Si,4,4
+13,Europa,Mujer,Grado,3,4,Mas de dos años,Varias veces al dia,5,2,2,2,0,0,5,5,2,1,3,4,3,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,1,0,0,"No, pero me gustaria",4,4
+14,Latinoamerica,Hombre,Grado,4,3,Menos de dos años,Una vez al dia,0,1,4,1,0,0,3,5,4,1,3,3,3,"Si, alguna vez",1,0,0,0,0,0,1,0,0,0,0,0,Puede,4,4
+15,Latinoamerica,Hombre,Posgrado,4,5,Mas de dos años,Varias veces al dia,5,3,0,5,2,0,5,5,2,1,4,4,2,"Si, muy a menudo",0,0,0,0,0,0,0,0,0,1,1,0,Puede,2,2
+16,Europa,Mujer,Profesion,4,3,Mas de dos años,Varias veces al dia,3,4,1,4,1,1,4,4,3,3,4,2,4,"Si, alguna vez",0,1,1,1,1,0,1,0,0,0,1,0,"No, pero me gustaria",4,3
+17,Europa,Hombre,Interes,2,4,Mas de dos años,Varias veces al dia,5,0,0,5,0,0,5,5,3,3,2,2,3,"Si, muy a menudo",0,1,0,1,1,0,0,0,0,1,0,0,"No, pero me gustaria",3,3
+18,Europa,Hombre,Posgrado,4,2,Menos de un año,Varias veces al dia,0,0,5,0,0,0,0,5,0,1,3,2,1,"Si, alguna vez",1,0,1,0,0,0,0,1,1,1,0,0,"No, pero me gustaria",3,3
+19,Europa,Hombre,Profesion,1,5,Mas de dos años,Varias veces al dia,4,2,0,4,1,2,5,5,3,1,4,3,3,"Si, alguna vez",0,0,0,0,0,0,0,0,0,1,0,0,Puede,3,4
+20,Europa,Mujer,Interes,3,1,Mas de dos años,Varias veces al dia,4,0,0,5,0,1,3,5,4,4,2,1,2,"Si, alguna vez",1,1,1,1,1,0,1,1,0,1,1,0,"No, y no me gustaria",2,2
+21,Europa,Hombre,Profesion,4,2,Mas de dos años,Varias veces por semana,0,5,0,4,0,0,5,5,2,1,2,1,3,"Si, muy a menudo",1,1,1,1,1,0,1,0,1,0,1,0,Si,3,2
+22,Europa,Hombre,Profesion,4,4,Mas de dos años,Varias veces al dia,5,0,0,5,4,2,5,5,4,3,4,3,4,"Si, alguna vez",1,1,1,1,1,0,0,1,1,1,1,0,"No, pero me gustaria",4,4
+23,Europa,Mujer,Profesion,4,3,Mas de dos años,Varias veces al dia,3,3,1,5,3,2,3,5,3,3,4,3,3,"Si, alguna vez",0,0,1,0,1,0,1,0,0,1,1,0,Puede,5,5
+24,Europa,Hombre,Grado,1,4,Mas de dos años,Varias veces al dia,3,1,0,2,0,0,3,5,1,2,5,4,3,"Si, alguna vez",0,0,0,1,0,0,0,1,0,0,0,0,Si,4,5
+25,Europa,Hombre,Posgrado,4,2,Menos de dos años,Varias veces al dia,3,2,3,0,0,0,0,2,0,3,3,1,2,"Si, alguna vez",1,0,1,1,1,0,1,1,0,0,0,0,Puede,5,4
+26,Europa,Mujer,Grado,3,5,Mas de dos años,Varias veces al dia,5,0,0,0,0,0,4,4,2,1,5,3,1,"Si, alguna vez",1,1,0,0,0,0,0,0,0,0,1,0,"No, y no me gustaria",3,3
+27,Europa,Hombre,Posgrado,4,4,Menos de dos años,Una vez al dia,3,0,5,0,0,0,2,4,0,1,4,3,1,"Si, muy a menudo",1,0,1,1,0,0,0,1,1,1,0,0,"No, pero me gustaria",5,4
+28,Europa,Hombre,Profesion,4,4,Mas de dos años,Varias veces al dia,2,2,0,4,1,0,3,3,1,1,4,3,3,"Si, una vez",1,1,0,0,1,0,0,0,0,0,1,0,"No, pero me gustaria",4,3
+29,Europa,Mujer,Grado,3,3,Mas de dos años,Varias veces al dia,5,0,0,5,0,0,5,5,0,2,5,3,1,"Si, una vez",1,1,0,1,0,0,0,0,0,0,1,0,Puede,4,4
+30,Latinoamerica,Hombre,Grado,4,4,Mas de dos años,Varias veces al dia,5,0,0,0,0,0,2,4,2,2,4,2,3,"Si, alguna vez",1,1,0,0,1,0,0,1,1,0,1,0,"No, pero me gustaria",4,3
+31,Europa,Mujer,Grado,3,3,Mas de dos años,Varias veces al dia,4,2,1,3,1,1,2,4,1,3,1,2,2,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,1,1,0,Puede,2,2
+32,Europa,Mujer,Posgrado,4,3,Mas de dos años,Varias veces al dia,4,2,0,5,2,3,5,5,3,3,4,2,2,"Si, alguna vez",1,1,1,1,1,0,1,1,1,1,0,0,Puede,4,4
+33,Europa,Mujer,Posgrado,5,2,Mas de dos años,Varias veces al dia,5,1,4,3,0,1,3,5,3,3,3,3,4,"Si, muy a menudo",1,0,1,1,1,0,1,0,1,0,1,0,Puede,2,3
+34,Europa,Mujer,Profesion,2,4,Menos de dos años,Varias veces por semana,3,1,4,1,0,0,3,4,4,0,3,3,4,"Si, muy a menudo",1,0,0,1,1,0,0,1,1,0,1,0,"No, y no me gustaria",3,3
+35,Europa,Hombre,Profesion,5,2,Menos de dos años,Una vez al dia,3,3,0,4,3,0,3,5,4,3,3,1,1,"Si, muy a menudo",0,0,1,0,1,0,1,1,1,0,1,0,"No, pero me gustaria",5,2
+36,Europa,Hombre,Grado,4,3,Mas de dos años,Varias veces al dia,5,0,3,1,4,2,4,5,2,2,4,3,3,"Si, alguna vez",1,1,1,1,1,0,1,0,1,0,0,0,"No, pero me gustaria",4,4
+37,Europa,Hombre,Profesion,3,3,Mas de dos años,Varias veces al dia,4,0,1,1,0,0,3,4,1,1,2,1,0,"Si, alguna vez",0,1,1,0,1,0,0,0,0,1,0,0,"No, pero me gustaria",2,2
+38,Europa,Mujer,Profesion,4,5,Mas de dos años,Varias veces al dia,3,1,0,2,0,3,4,5,3,1,2,3,1,"Si, alguna vez",1,0,1,0,1,0,1,0,0,0,1,0,Si,4,4
+39,Europa,Mujer,Grado,3,3,Mas de dos años,Varias veces al dia,4,0,0,2,0,1,4,5,1,3,2,3,4,"Si, muy a menudo",1,1,1,1,1,0,0,1,1,1,1,0,"No, pero me gustaria",5,5
+40,Europa,Mujer,Interes,4,2,Menos de dos años,Varias veces al dia,4,2,0,4,2,3,4,4,4,2,3,3,3,"Si, alguna vez",0,0,0,0,0,0,0,0,0,0,1,0,Puede,2,3
+41,Europa,Mujer,Posgrado,5,5,Mas de dos años,Varias veces al dia,5,1,0,4,1,1,4,5,4,2,4,4,3,"Si, muy a menudo",1,0,1,1,0,0,1,1,0,1,1,0,Puede,4,4
+42,Latinoamerica,Hombre,Profesion,4,4,Mas de dos años,Varias veces al dia,4,4,5,4,3,2,5,5,4,5,4,4,3,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,1,1,0,Puede,0,1
+43,Latinoamerica,Hombre,Profesion,4,4,Mas de dos años,Varias veces al dia,1,4,4,1,1,0,5,5,4,3,5,3,4,"Si, alguna vez",0,0,1,0,0,0,1,0,1,0,0,0,Si,3,3
+44,Europa,Mujer,Posgrado,4,1,Mas de dos años,Varias veces al dia,4,1,1,5,1,2,3,5,4,2,3,3,3,"Si, muy a menudo",1,0,1,1,1,0,0,0,1,1,1,0,Si,3,3
+45,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,5,1,1,5,0,1,5,5,3,3,2,1,2,"Si, alguna vez",1,1,1,1,1,0,1,1,0,1,1,0,"No, pero me gustaria",4,3
+46,Europa,Mujer,Posgrado,4,3,Mas de dos años,Varias veces al dia,5,2,0,5,2,3,5,5,1,3,4,3,4,"Si, muy a menudo",1,1,1,1,0,0,1,1,0,0,1,0,"No, y no me gustaria",0,3
+47,Europa,Mujer,Grado,4,3,Mas de dos años,Varias veces al dia,5,1,0,5,1,0,5,5,3,1,5,2,4,"Si, alguna vez",1,0,1,0,1,0,1,0,0,1,1,0,Puede,5,4
+48,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,1,0,1,1,0,0,2,2,0,3,3,3,1,"Si, muy a menudo",1,1,0,1,1,0,0,0,0,0,1,0,"No, y no me gustaria",3,4
+49,Europa,Hombre,Posgrado,4,3,Menos de un año,Varias veces al dia,0,0,5,2,0,0,5,5,2,0,3,3,1,"Si, alguna vez",0,0,0,0,1,0,0,0,1,1,0,0,"No, y no me gustaria",2,3
+50,Europa,Hombre,Profesion,5,3,Mas de dos años,Varias veces al dia,4,0,0,1,0,0,3,3,2,3,3,4,3,"Si, alguna vez",1,1,1,1,1,0,1,1,0,1,1,0,"No, y no me gustaria",2,2
+51,Latinoamerica,Hombre,Profesion,3,3,Mas de dos años,Varias veces al dia,4,2,0,5,2,2,1,4,4,2,4,3,1,"Si, alguna vez",0,0,0,0,1,0,0,1,1,0,0,0,Puede,4,5
+52,Europa,Hombre,Profesion,5,2,Mas de dos años,Varias veces al dia,4,3,0,1,1,1,2,2,2,2,3,2,3,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,1,1,0,Si,4,3
+53,Latinoamerica,Hombre,Interes,3,4,Mas de dos años,Varias veces al dia,5,3,0,3,2,2,4,4,3,2,4,3,3,"Si, alguna vez",0,0,1,1,1,0,0,0,1,1,0,0,"No, pero me gustaria",3,4
+54,Europa,Hombre,Profesion,4,2,Mas de dos años,Varias veces al dia,3,2,0,3,2,2,3,3,2,4,4,3,4,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,0,0,Si,2,3
+55,Europa,Hombre,Posgrado,0,0,Mas de dos años,Varias veces al dia,4,3,0,5,0,1,5,5,5,3,4,2,2,"Si, alguna vez",1,1,0,1,1,0,0,0,1,1,1,0,"No, y no me gustaria",3,1
+56,Europa,Mujer,Grado,3,2,Mas de dos años,Varias veces al dia,4,2,0,5,5,3,5,5,4,3,4,4,4,"Si, alguna vez",0,0,1,1,0,0,0,1,0,0,0,0,"No, pero me gustaria",4,5
+57,Europa,Hombre,Profesion,3,3,Mas de dos años,Varias veces al dia,3,3,0,4,2,2,3,4,4,2,2,1,0,"Si, muy a menudo",0,0,0,0,1,0,1,0,1,1,0,0,"No, pero me gustaria",2,2
+58,Europa,Hombre,Profesion,2,4,Mas de dos años,Varias veces al dia,3,4,0,5,3,1,5,5,3,3,2,2,1,"Si, muy a menudo",0,0,1,1,0,0,1,0,1,0,0,0,Puede,3,3
+59,Europa,Mujer,Posgrado,3,3,Mas de dos años,Varias veces al dia,4,3,0,4,2,3,3,4,3,4,3,3,3,"Si, muy a menudo",1,1,1,1,1,0,1,1,0,0,1,0,Puede,3,3
+60,Europa,Mujer,Grado,3,2,Mas de dos años,Varias veces al dia,5,0,1,1,0,0,0,5,1,2,3,4,4,"Si, muy a menudo",0,0,0,0,0,0,0,0,0,0,1,0,"No, y no me gustaria",3,4
+61,Europa,Mujer,Posgrado,4,5,Mas de dos años,Varias veces al dia,5,3,0,5,4,4,2,4,4,0,5,4,2,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Si,5,4
+62,Europa,Mujer,Interes,3,3,Mas de dos años,Varias veces al dia,5,0,3,3,3,3,3,3,2,3,4,2,4,"Si, muy a menudo",0,1,0,0,0,0,0,0,0,0,1,0,"No, pero me gustaria",5,5
+63,Europa,Hombre,Profesion,5,3,Mas de dos años,Varias veces al dia,5,1,5,4,0,1,3,4,4,1,4,4,4,"Si, alguna vez",0,0,0,1,1,0,1,0,1,1,0,0,"No, pero me gustaria",4,4
+64,Europa,No binarie,Posgrado,4,2,Mas de dos años,Varias veces al dia,4,1,2,4,1,1,4,4,4,4,3,3,3,"Si, alguna vez",1,1,0,1,0,0,1,1,0,0,1,0,"No, y no me gustaria",1,2
+65,Europa,No binarie,Grado,3,5,Mas de dos años,Varias veces al dia,5,2,0,5,1,3,5,5,5,1,5,4,3,"Si, muy a menudo",0,1,1,1,0,0,1,1,0,0,0,0,"No, pero me gustaria",2,0
+66,Europa,Mujer,Profesion,4,4,Mas de dos años,Varias veces al dia,4,3,0,4,1,4,4,4,4,4,2,2,3,"Si, alguna vez",0,0,1,1,1,0,1,0,0,1,0,0,Si,4,3
+67,Europa,Mujer,Grado,1,4,Mas de dos años,Varias veces al dia,5,0,0,4,0,0,5,5,0,3,4,3,3,"Si, alguna vez",1,1,1,0,0,0,0,0,0,1,1,0,"No, pero me gustaria",5,4
+68,Latinoamerica,Hombre,Profesion,5,4,Menos de dos años,Varias veces al dia,5,1,0,5,3,4,5,5,5,4,5,4,4,"Si, alguna vez",1,1,1,1,0,0,1,0,0,1,0,0,"No, pero me gustaria",4,4
+69,Europa,Mujer,Grado,4,1,Mas de dos años,Varias veces al dia,5,0,1,4,2,3,4,5,2,5,3,1,1,"Si, muy a menudo",0,1,0,1,1,0,0,1,0,0,1,0,"No, y no me gustaria",1,2
+70,Europa,Hombre,Profesion,4,3,Mas de dos años,Una vez por semana,3,3,0,2,3,0,3,4,3,0,4,4,1,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,1,0,Puede,4,4
+71,Europa,Mujer,Posgrado,4,2,Mas de dos años,Varias veces por semana,5,0,1,2,0,0,3,4,0,2,2,2,3,"Si, muy a menudo",1,0,1,0,1,0,1,0,1,1,1,0,"No, pero me gustaria",4,3
+72,Europa,Hombre,Grado,4,3,Mas de dos años,Varias veces al dia,5,0,0,5,0,0,5,5,5,3,4,3,4,"Si, alguna vez",1,1,1,1,1,0,0,0,0,1,1,0,"No, pero me gustaria",4,3
+73,Europa,Mujer,Profesion,5,3,Menos de dos años,Una vez al dia,2,3,0,3,2,3,0,4,0,2,2,2,0,"Si, alguna vez",0,0,1,0,0,0,1,0,0,0,0,0,Puede,3,3
+74,Europa,Hombre,Profesion,4,2,Mas de dos años,Varias veces al dia,3,3,0,3,1,0,4,4,1,3,3,2,2,"Si, alguna vez",0,1,0,0,1,0,0,0,0,1,0,0,Puede,2,3
+75,Europa,Hombre,Profesion,5,1,Mas de dos años,Varias veces al dia,4,3,1,3,2,3,2,4,4,4,2,2,4,"Si, alguna vez",1,1,0,1,1,0,1,0,0,1,1,0,Si,1,2
+76,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,5,0,0,5,0,1,3,5,3,2,5,4,4,"Si, muy a menudo",1,0,1,1,0,0,0,1,1,1,1,0,"No, pero me gustaria",3,3
+77,Europa,Mujer,Profesion,2,4,Mas de dos años,Una vez al dia,5,1,3,4,1,3,4,5,4,3,3,2,2,"Si, alguna vez",1,1,0,1,1,0,1,1,0,1,1,0,"No, y no me gustaria",1,1
+78,Europa,Mujer,Grado,2,4,Mas de dos años,Varias veces al dia,5,0,0,1,0,0,5,5,0,1,4,3,2,"Si, alguna vez",1,1,0,0,0,0,0,1,0,0,1,0,"No, pero me gustaria",4,4
+79,Europa,Hombre,Profesion,2,3,Mas de dos años,Varias veces al dia,5,4,0,3,3,4,5,5,2,1,3,2,1,"Si, alguna vez",0,0,0,1,1,0,0,0,0,1,1,0,Puede,1,1
+80,Europa,Hombre,Posgrado,4,3,Mas de dos años,Varias veces al dia,0,4,0,4,0,2,3,4,1,0,3,2,0,"Si, alguna vez",0,0,1,0,1,0,1,0,1,1,1,0,Puede,0,2
+81,Europa,Mujer,Posgrado,4,3,Mas de dos años,Varias veces al dia,5,0,5,2,0,0,5,5,3,1,4,4,3,"Si, muy a menudo",1,0,1,0,0,0,0,0,0,0,1,0,"No, pero me gustaria",3,4
+82,Europa,Mujer,Profesion,4,4,Mas de dos años,Varias veces al dia,3,4,1,5,4,2,5,4,5,2,5,4,4,"Si, alguna vez",1,1,1,1,0,0,1,1,1,0,1,0,Si,5,4
+83,Europa,Hombre,Profesion,4,1,Mas de dos años,Varias veces al dia,4,1,4,3,1,3,2,2,2,4,3,3,4,"Si, alguna vez",0,1,0,1,1,0,0,0,0,1,1,0,"No, y no me gustaria",1,1
+84,Europa,Mujer,Grado,3,2,Mas de dos años,Varias veces al dia,4,0,1,2,1,1,4,5,2,2,3,4,4,"Si, alguna vez",1,0,1,1,0,0,0,1,0,1,1,0,"No, pero me gustaria",4,3
+85,Europa,Mujer,Posgrado,4,3,Menos de un año,Varias veces al dia,2,3,5,4,3,1,4,5,2,1,3,3,1,"Si, alguna vez",0,1,1,1,1,0,1,0,0,0,0,0,Puede,4,4
+86,Europa,Mujer,Grado,4,5,Mas de dos años,Varias veces al dia,5,0,1,1,0,0,5,5,2,0,5,4,4,"Si, muy a menudo",1,1,1,1,1,0,0,1,1,0,1,0,"No, pero me gustaria",4,4
+87,Europa,Hombre,Interes,4,3,Mas de dos años,Varias veces al dia,5,0,0,5,0,3,4,5,4,3,3,3,4,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,1,0,"No, pero me gustaria",3,4
+88,Latinoamerica,Hombre,Grado,3,3,Mas de dos años,Varias veces al dia,5,1,1,3,0,1,3,5,1,3,4,3,2,"Si, alguna vez",0,0,1,1,0,0,0,1,0,1,0,0,"No, pero me gustaria",4,5
+89,Europa,Mujer,Profesion,0,3,Mas de dos años,Varias veces al dia,0,5,0,2,0,2,3,5,3,2,2,3,3,"Si, muy a menudo",1,1,1,1,0,0,1,1,1,0,1,0,Puede,3,3
+90,Europa,Hombre,Posgrado,3,3,Mas de dos años,Varias veces al dia,4,4,0,3,2,1,2,3,2,2,3,1,2,"Si, alguna vez",0,0,1,0,1,0,0,0,1,1,0,0,"No, y no me gustaria",1,3
+91,Europa,Hombre,Profesion,3,4,Mas de dos años,Varias veces al dia,2,4,1,1,3,1,4,5,3,1,3,1,1,"Si, alguna vez",0,0,1,1,1,0,1,0,1,1,0,0,Puede,3,3
+92,Europa,Hombre,Posgrado,4,3,Mas de dos años,Varias veces al dia,5,1,2,5,0,1,5,5,4,2,4,3,4,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,1,0,Si,3,3
+93,Europa,Mujer,Grado,3,2,Mas de dos años,Varias veces al dia,5,0,5,3,0,0,4,5,0,1,4,2,3,"Si, alguna vez",1,0,0,1,0,0,0,1,0,0,1,0,"No, pero me gustaria",2,3
+94,Europa,Mujer,Profesion,4,3,Mas de dos años,Varias veces al dia,4,1,0,4,3,2,3,5,2,4,4,5,3,"Si, alguna vez",1,0,0,1,1,0,1,1,0,0,1,0,"No, y no me gustaria",3,4
+95,Latinoamerica,Hombre,Posgrado,5,4,Mas de dos años,Varias veces al dia,5,0,0,1,0,0,3,5,2,0,5,3,2,"Si, alguna vez",1,1,1,1,0,0,0,0,0,1,1,0,"No, pero me gustaria",4,4
+96,Europa,Mujer,Posgrado,3,4,Mas de dos años,Varias veces al dia,5,0,0,3,1,0,5,5,2,1,3,3,4,"Si, alguna vez",0,0,0,0,0,0,0,1,0,1,1,0,Puede,4,3
+97,Europa,Hombre,Profesion,5,2,Mas de dos años,Varias veces al dia,1,2,0,2,2,0,2,1,1,3,2,2,2,"Si, muy a menudo",0,0,0,1,1,0,1,0,1,0,0,0,Puede,3,2
+98,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,5,0,5,2,0,1,2,5,1,4,3,1,1,"Si, alguna vez",1,1,1,1,0,0,0,1,0,0,0,0,"No, pero me gustaria",5,3
+99,Europa,No binarie,Posgrado,5,1,Mas de dos años,Varias veces al dia,5,1,3,3,1,0,4,5,2,4,1,0,0,"Si, muy a menudo",0,0,0,0,1,0,0,0,1,1,1,0,"No, y no me gustaria",2,2
+100,Europa,Hombre,Grado,3,4,Mas de dos años,Varias veces al dia,4,0,3,4,0,0,5,5,5,3,3,2,2,"Si, muy a menudo",1,1,0,1,1,0,1,1,1,0,0,0,Si,3,4
+101,Europa,Mujer,Grado,3,3,Mas de dos años,Varias veces al dia,4,0,3,0,0,0,3,5,1,4,3,3,2,"Si, alguna vez",1,1,0,1,0,0,0,0,0,1,1,0,"No, pero me gustaria",2,3
+102,Europa,Hombre,Grado,3,3,Mas de dos años,Varias veces al dia,5,0,2,1,0,0,3,3,1,4,3,3,4,"Si, alguna vez",1,0,1,1,0,0,0,1,0,0,1,0,"No, pero me gustaria",3,2
+103,Europa,Mujer,Grado,3,3,Mas de dos años,Varias veces al dia,5,1,0,4,2,3,5,5,5,3,5,4,4,"Si, alguna vez",1,1,1,1,0,0,1,1,1,1,0,0,Puede,5,5
+104,Europa,Hombre,Interes,1,4,Mas de dos años,Varias veces al dia,5,0,0,2,0,0,3,4,3,0,4,2,3,"Si, alguna vez",0,0,0,0,1,0,0,0,0,0,1,0,"No, y no me gustaria",5,4
+105,Europa,Mujer,Profesion,2,3,Mas de dos años,Varias veces al dia,3,3,0,2,3,2,4,4,4,1,3,4,3,"Si, alguna vez",0,0,0,0,1,0,0,0,0,0,1,0,Puede,3,3
+106,Europa,Mujer,Profesion,3,3,Mas de dos años,Varias veces por semana,5,0,5,2,3,2,4,4,1,2,1,3,0,"Si, muy a menudo",1,1,0,1,1,0,1,0,1,1,0,0,"No, y no me gustaria",0,0
+107,Europa,Mujer,Grado,4,2,Mas de dos años,Una vez al dia,5,0,0,2,0,0,2,3,1,1,4,3,3,"Si, alguna vez",1,0,0,1,1,0,0,1,0,0,0,0,"No, pero me gustaria",3,3
+108,Europa,Hombre,Profesion,1,1,Mas de dos años,Varias veces al dia,5,2,0,4,2,0,4,5,3,0,4,3,4,"Si, muy a menudo",0,0,0,0,0,0,0,0,1,1,1,0,Puede,4,4
+109,Europa,Hombre,Profesion,4,3,Mas de dos años,Varias veces al dia,0,3,0,4,4,0,4,4,4,1,2,1,0,"Si, alguna vez",0,0,0,1,1,0,0,0,0,1,1,0,"No, y no me gustaria",3,1
+110,Europa,Hombre,Posgrado,4,3,Mas de dos años,Varias veces al dia,4,0,1,0,0,0,1,3,0,2,3,2,3,"Si, muy a menudo",1,0,1,1,0,0,0,1,1,1,0,0,"No, pero me gustaria",4,4
+111,Latinoamerica,Hombre,Posgrado,4,1,Mas de dos años,Varias veces al dia,5,0,0,2,0,0,5,5,3,3,4,2,4,"Si, alguna vez",0,0,0,0,1,0,0,0,1,0,0,0,Si,5,4
+112,Europa,No binarie,Grado,4,3,Mas de dos años,Varias veces al dia,5,3,0,2,1,0,3,4,4,1,4,4,4,"Si, alguna vez",0,0,1,0,1,0,0,1,0,1,0,0,Si,3,3
+113,Europa,Mujer,Profesion,3,4,Mas de dos años,Varias veces al dia,4,1,3,3,1,3,4,4,4,1,5,4,1,"Si, alguna vez",0,1,1,1,0,0,0,1,1,1,1,0,"No, pero me gustaria",5,5
+114,Latinoamerica,Mujer,Profesion,3,5,Menos de un año,Varias veces por semana,5,3,0,0,0,0,4,5,5,3,5,5,5,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,"No, pero me gustaria",3,4
+115,Europa,Mujer,Profesion,2,5,Mas de dos años,Una vez al dia,0,2,0,0,0,0,5,5,5,1,4,3,4,"Si, muy a menudo",0,0,1,0,0,0,1,1,1,0,0,0,Puede,5,3
+116,Latinoamerica,Mujer,Profesion,4,3,Mas de dos años,Varias veces al dia,5,1,1,3,0,0,3,5,3,2,5,4,4,"Si, muy a menudo",1,1,1,1,0,0,1,1,0,0,1,0,"No, pero me gustaria",5,5
+117,Europa,Hombre,Grado,4,2,Menos de un año,Varias veces al dia,5,1,0,5,1,5,5,5,5,3,4,2,5,"Si, alguna vez",1,0,1,0,0,0,1,0,1,1,1,0,"No, pero me gustaria",5,5
+118,Europa,Mujer,Posgrado,4,3,Mas de dos años,Una vez al dia,5,0,0,1,0,0,4,5,3,2,4,1,4,"Si, muy a menudo",1,0,1,1,1,0,0,1,0,1,1,0,"No, pero me gustaria",1,3
+119,Latinoamerica,Mujer,Profesion,4,5,Mas de dos años,Varias veces por semana,3,2,0,4,1,1,4,5,4,3,2,2,0,"Si, muy a menudo",0,0,0,0,1,0,1,1,1,1,1,0,"No, y no me gustaria",3,2
+120,Europa,Hombre,Posgrado,4,4,Menos de un año,Varias veces al dia,5,0,0,0,0,0,2,4,0,2,4,3,4,"Si, muy a menudo",1,1,1,1,0,0,1,1,1,0,0,0,Puede,2,5
+121,Europa,Mujer,Posgrado,4,5,Mas de dos años,Varias veces al dia,5,1,3,2,3,4,3,5,4,0,3,2,1,"Si, muy a menudo",1,1,1,1,1,0,1,1,0,1,1,0,Puede,4,3
+122,Europa,Mujer,Grado,4,4,Menos de dos años,Una vez por semana,5,0,1,5,3,3,3,5,0,2,5,4,4,"Si, una vez",1,1,0,0,0,0,0,0,0,0,1,0,Puede,4,4
+123,Europa,Hombre,Grado,3,4,Menos de un año,Varias veces al dia,1,2,0,1,2,2,1,2,1,3,4,4,3,"Si, alguna vez",0,0,0,1,0,0,1,0,0,0,0,0,Si,5,5
+124,Europa,Hombre,Grado,4,2,Menos de dos años,Varias veces al dia,4,3,0,4,2,1,5,5,3,2,1,1,1,"Si, muy a menudo",0,0,0,0,1,0,0,0,1,1,0,0,Puede,1,2
+125,Latinoamerica,Hombre,Profesion,3,5,Menos de dos años,Varias veces al dia,3,1,0,4,4,4,5,5,3,3,4,2,1,"Si, muy a menudo",1,0,1,1,0,0,1,1,1,1,0,0,"No, pero me gustaria",5,5
+126,Latinoamerica,Mujer,Grado,4,5,Menos de dos años,Varias veces al dia,4,3,0,4,2,2,5,5,3,1,5,4,5,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,0,"No, pero me gustaria",5,5
+127,Europa,Hombre,Posgrado,4,2,Mas de dos años,Varias veces al dia,5,2,4,3,1,2,5,5,3,2,3,3,2,"Si, muy a menudo",1,0,1,0,1,0,1,1,1,0,0,0,"No, pero me gustaria",3,2
+128,Europa,Mujer,Profesion,2,4,Mas de dos años,Varias veces por semana,2,0,3,0,0,0,2,2,0,0,4,2,1,"Si, muy a menudo",0,0,1,0,0,0,0,0,0,0,1,0,"No, y no me gustaria",3,3
+129,Europa,Mujer,Posgrado,4,3,Menos de dos años,Varias veces al dia,5,0,1,0,0,0,2,3,0,3,3,3,2,"Si, alguna vez",0,1,0,1,0,0,0,0,1,1,0,0,Puede,4,4
+130,Europa,Hombre,Interes,2,3,Mas de dos años,Varias veces al dia,4,1,2,3,1,3,3,4,1,2,4,3,4,"Si, alguna vez",1,1,0,1,0,0,0,0,0,1,1,0,"No, y no me gustaria",1,2
+131,Europa,No binarie,Interes,5,3,Mas de dos años,Varias veces al dia,5,2,5,1,1,1,5,5,5,2,3,4,3,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Puede,4,4
+132,Europa,Hombre,Posgrado,5,1,Menos de un año,Varias veces por semana,1,4,1,1,3,0,4,5,2,1,3,3,1,"Si, alguna vez",1,1,1,1,0,0,1,1,1,1,1,0,Puede,2,4
+133,Europa,Mujer,Posgrado,3,3,Mas de dos años,Varias veces por semana,3,3,1,2,2,3,3,4,3,2,3,2,3,"Si, muy a menudo",1,0,1,0,1,0,1,0,0,0,1,0,Puede,3,3
+134,Latinoamerica,Hombre,Grado,4,4,Menos de un año,Varias veces al dia,4,1,0,5,4,3,4,5,3,1,4,2,1,"Si, alguna vez",0,0,1,1,0,0,0,0,1,0,0,0,"No, y no me gustaria",4,3
+135,Latinoamerica,Mujer,Grado,3,4,Menos de dos años,Varias veces al dia,4,0,2,3,2,1,4,4,0,2,2,1,1,"Si, alguna vez",1,0,1,1,0,0,1,1,0,1,1,0,"No, y no me gustaria",1,1
+136,Europa,Mujer,Posgrado,4,2,Menos de 6 meses,Una vez al dia,4,1,0,4,3,3,2,4,1,2,5,4,4,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,"No, pero me gustaria",1,4
+137,Latinoamerica,Hombre,Interes,2,2,Mas de dos años,Varias veces por semana,5,2,1,2,2,2,5,5,3,2,2,3,2,"Si, alguna vez",0,0,1,0,0,0,0,0,0,0,1,0,"No, pero me gustaria",4,1
+138,Europa,Hombre,Interes,3,5,Mas de dos años,Varias veces al dia,2,3,0,3,2,1,5,5,1,1,5,5,3,"Si, alguna vez",0,0,0,0,1,0,0,0,1,0,0,0,"No, y no me gustaria",2,0
+139,Latinoamerica,Mujer,Grado,5,3,Mas de dos años,Varias veces al dia,5,0,0,3,0,0,4,5,1,4,5,3,2,"Si, muy a menudo",1,1,1,1,1,0,0,0,0,1,1,0,"No, pero me gustaria",5,5
+140,Europa,Hombre,Profesion,3,4,Mas de dos años,Varias veces al dia,4,2,0,5,3,3,5,5,5,3,4,3,3,"Si, alguna vez",1,0,1,1,1,0,1,0,0,1,0,0,Puede,4,4
+141,Europa,Mujer,Posgrado,4,4,Mas de dos años,Varias veces al dia,2,0,0,2,2,2,2,1,0,4,5,5,2,"Si, muy a menudo",1,0,1,1,1,0,1,1,0,1,1,0,Puede,3,3
+142,Europa,Hombre,Grado,3,3,Mas de dos años,Varias veces al dia,3,0,0,3,0,0,3,3,1,3,4,3,4,"Si, alguna vez",1,1,0,0,0,0,0,1,0,0,1,0,Si,4,5
+143,Europa,Mujer,Interes,3,5,Menos de 6 meses,Varias veces al dia,3,2,2,5,5,5,5,5,5,2,4,4,5,"Si, muy a menudo",1,1,0,1,0,0,0,0,0,0,1,0,Puede,4,5
+144,Europa,Hombre,Posgrado,3,3,Mas de dos años,Varias veces al dia,3,3,1,4,1,3,3,5,2,3,3,2,4,"Si, alguna vez",0,1,1,1,0,0,1,0,1,0,0,0,Puede,3,3
+145,Latinoamerica,Hombre,Grado,3,4,Menos de dos años,Varias veces al dia,5,0,0,2,0,0,5,5,2,0,2,2,4,"Si, alguna vez",0,0,1,1,1,0,0,0,1,0,0,0,"No, y no me gustaria",0,1
+146,Europa,Hombre,Profesion,5,3,Mas de dos años,Varias veces al dia,5,1,0,1,0,0,5,5,5,3,3,4,1,"Si, muy a menudo",0,1,1,0,1,0,1,0,1,1,1,0,Puede,4,3
+147,Europa,Mujer,Profesion,3,5,Mas de dos años,Varias veces al dia,1,1,5,1,0,0,5,5,2,0,3,1,2,"Si, una vez",0,0,0,0,1,0,0,0,1,0,0,0,"No, y no me gustaria",4,4
+148,Europa,Mujer,Posgrado,1,3,Menos de dos años,Varias veces al dia,5,3,5,1,2,0,1,5,0,3,2,2,1,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,1,1,0,"No, pero me gustaria",0,0
+149,Europa,Mujer,Interes,3,2,Mas de dos años,Varias veces al dia,5,1,4,1,0,0,4,5,0,1,3,3,4,"Si, muy a menudo",1,0,1,0,0,0,0,1,0,1,1,0,"No, pero me gustaria",4,4
+150,Europa,Hombre,Grado,2,4,Mas de dos años,Varias veces al dia,5,1,5,5,4,5,1,3,4,0,4,3,0,"Si, alguna vez",0,1,0,1,1,0,0,1,0,1,0,0,"No, pero me gustaria",1,2
+151,Europa,Hombre,Posgrado,4,2,Menos de un año,Una vez al dia,2,5,1,2,1,1,4,5,3,2,1,1,1,"Si, muy a menudo",0,0,0,0,1,0,1,0,1,1,0,0,Puede,4,3
+152,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,4,1,0,4,1,5,5,5,2,2,3,1,1,"Si, muy a menudo",1,0,1,1,1,0,1,1,0,0,1,0,"No, pero me gustaria",2,3
+153,Europa,Hombre,Interes,4,3,Mas de dos años,Varias veces al dia,2,1,1,2,0,0,2,2,1,4,3,3,2,"Si, alguna vez",0,0,1,1,0,0,0,1,0,1,0,0,"No, y no me gustaria",1,3
+154,Europa,Hombre,Grado,3,4,Menos de dos años,Varias veces al dia,5,0,3,0,0,0,5,5,0,4,4,4,4,"Si, una vez",1,1,0,1,1,0,0,1,0,1,0,0,"No, pero me gustaria",5,5
+155,Europa,Mujer,Posgrado,3,2,Mas de dos años,Varias veces por semana,5,0,0,1,0,0,3,5,0,3,2,1,2,"Si, alguna vez",1,0,1,1,0,0,0,1,0,1,1,0,"No, pero me gustaria",2,1
+156,Europa,Mujer,Grado,5,4,Mas de dos años,Varias veces por semana,3,0,0,1,2,0,2,3,2,1,4,4,2,"Si, alguna vez",0,0,1,0,0,0,1,0,0,0,0,0,"No, pero me gustaria",4,4
+157,Europa,Hombre,Profesion,3,4,Mas de dos años,Varias veces al dia,3,0,0,3,1,1,2,3,1,2,4,2,2,"Si, muy a menudo",0,0,0,0,1,0,1,1,1,0,0,0,"No, y no me gustaria",3,1
+158,Europa,Mujer,Posgrado,4,2,Mas de dos años,Varias veces al dia,5,2,3,3,3,1,5,5,1,4,3,3,4,"Si, alguna vez",0,1,1,1,1,0,0,1,0,1,0,0,"No, pero me gustaria",3,3
+159,Europa,Mujer,Profesion,5,3,Menos de dos años,Varias veces al dia,5,0,5,1,0,0,2,2,0,1,3,3,2,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,"No, y no me gustaria",4,3
+160,Europa,Mujer,Posgrado,4,2,Mas de dos años,Varias veces al dia,5,0,0,2,0,0,5,5,2,2,3,4,1,"Si, muy a menudo",1,0,1,1,1,0,1,1,0,1,1,0,"No, pero me gustaria",3,3
+161,Latinoamerica,Mujer,Posgrado,4,3,Mas de dos años,Varias veces al dia,4,3,0,1,3,4,5,5,1,0,4,3,1,"Si, alguna vez",0,0,1,1,1,0,1,1,0,1,0,0,Puede,5,5
+162,Europa,Mujer,Grado,3,4,Menos de un año,Varias veces al dia,5,1,0,0,1,0,3,5,5,2,4,3,4,"Si, alguna vez",1,0,0,0,1,0,0,1,0,1,1,0,Puede,5,5
+163,Europa,Mujer,Grado,4,3,Mas de dos años,Varias veces al dia,5,1,0,3,0,1,4,5,3,2,4,3,1,"Si, muy a menudo",1,1,0,1,1,0,1,1,0,1,1,0,"No, pero me gustaria",2,2
+164,Europa,Mujer,Grado,3,1,Menos de dos años,Una vez al dia,1,3,4,4,1,0,4,4,4,2,1,1,0,"Si, muy a menudo",0,1,0,1,1,0,1,1,1,0,1,0,Puede,4,1
+165,Europa,Mujer,Grado,3,2,Mas de dos años,Varias veces al dia,5,0,5,3,1,4,4,5,4,3,2,1,1,"Si, muy a menudo",0,1,1,1,1,0,0,1,1,1,1,0,Puede,0,1
+166,Europa,Mujer,Profesion,4,5,Mas de dos años,Varias veces al dia,5,1,1,4,4,4,2,4,2,1,5,5,1,"Si, alguna vez",0,0,1,0,0,0,1,0,1,0,0,0,Puede,2,3
+167,Latinoamerica,Mujer,Grado,3,3,Mas de dos años,Varias veces al dia,4,0,0,1,0,0,4,5,1,1,5,5,3,"Si, alguna vez",0,0,0,0,0,0,0,0,0,0,1,0,"No, pero me gustaria",3,3
+168,Europa,Hombre,Grado,5,3,Mas de dos años,Varias veces al dia,3,1,2,3,2,3,5,5,4,2,3,2,3,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,1,0,0,Puede,3,3
+169,Europa,Hombre,Posgrado,4,3,Mas de dos años,Varias veces al dia,5,4,0,4,5,2,4,5,3,4,3,3,2,"Si, muy a menudo",0,1,0,0,1,0,1,1,1,1,1,0,Puede,0,2
+170,Europa,Hombre,Posgrado,4,2,Mas de dos años,Varias veces al dia,5,1,0,2,0,0,4,5,3,1,3,2,1,"Si, alguna vez",0,1,1,1,0,0,0,1,0,1,1,0,Puede,2,2
+171,Europa,Hombre,Posgrado,4,3,Mas de dos años,Una vez al dia,4,0,0,4,1,1,2,4,2,0,3,4,4,"Si, alguna vez",0,1,1,1,0,0,1,1,0,0,1,0,Si,2,2
+172,Europa,Mujer,Posgrado,3,2,Mas de dos años,Varias veces al dia,5,2,4,4,0,0,4,5,1,3,4,4,3,"Si, muy a menudo",1,1,1,0,0,0,1,1,0,0,0,0,"No, pero me gustaria",3,3
+173,Latinoamerica,Hombre,Profesion,3,5,Mas de dos años,Varias veces al dia,3,3,4,2,2,2,3,4,2,4,3,3,1,"Si, muy a menudo",1,1,0,0,1,0,1,0,1,1,1,0,Puede,4,4
+174,Europa,Mujer,Posgrado,4,4,Mas de dos años,Varias veces al dia,4,0,3,0,0,0,3,4,1,2,4,4,3,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,"No, y no me gustaria",3,1
+175,Europa,Mujer,Grado,2,4,Mas de dos años,Varias veces al dia,5,2,0,4,1,2,5,5,1,3,4,1,0,"Si, alguna vez",0,1,0,1,0,0,1,1,1,1,0,0,Puede,0,2
+176,Europa,Mujer,Grado,3,4,Mas de dos años,Varias veces al dia,4,0,2,0,0,0,2,3,0,1,3,4,4,"Si, muy a menudo",1,1,1,1,0,0,0,1,1,1,1,0,"No, pero me gustaria",3,4
+177,Latinoamerica,Hombre,Interes,4,3,Mas de dos años,Varias veces al dia,5,1,2,3,3,3,4,5,2,3,4,4,4,"Si, alguna vez",0,0,1,1,0,0,1,1,1,0,1,0,"No, pero me gustaria",4,4
+178,Europa,Mujer,Profesion,2,5,Mas de dos años,Varias veces por semana,5,0,0,4,0,0,5,5,3,0,3,3,1,"Si, una vez",0,1,0,1,0,0,0,0,0,1,1,0,"No, y no me gustaria",3,1
+179,Europa,Hombre,Grado,3,4,Mas de dos años,Varias veces al dia,4,1,3,2,1,0,5,5,3,3,4,4,2,"Si, alguna vez",1,1,1,1,0,0,1,0,1,0,0,0,"No, pero me gustaria",4,5
+180,Europa,Mujer,Posgrado,4,2,Mas de dos años,Varias veces al dia,5,0,1,2,0,0,4,5,1,2,2,3,4,"Si, alguna vez",1,1,1,1,0,0,1,1,0,1,1,0,"No, pero me gustaria",2,3
+181,Latinoamerica,Mujer,Profesion,4,3,Mas de dos años,Varias veces al dia,5,0,5,1,5,4,5,5,1,3,3,4,4,"Si, muy a menudo",0,0,0,1,0,0,1,0,0,0,0,0,"No, pero me gustaria",4,4
+182,Europa,Mujer,Posgrado,3,3,Mas de dos años,Varias veces al dia,5,2,0,5,2,4,5,5,3,3,4,4,4,"Si, alguna vez",1,1,0,1,1,0,1,1,0,1,1,0,Si,5,5
+183,Europa,Mujer,Profesion,3,3,Mas de dos años,Varias veces al dia,5,4,0,4,4,4,5,5,4,1,4,4,4,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,0,0,"No, pero me gustaria",5,4
+184,Europa,Hombre,Profesion,4,3,Mas de dos años,Varias veces al dia,5,1,0,5,0,3,4,4,4,1,5,3,3,"No, nunca",0,0,0,0,1,0,0,0,0,0,1,0,"No, pero me gustaria",0,0
+185,Latinoamerica,Hombre,Profesion,5,3,Mas de dos años,Varias veces al dia,5,2,0,1,3,0,4,5,1,0,4,3,1,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Puede,4,5
+186,Europa,Hombre,Posgrado,4,4,Menos de un año,Varias veces al dia,3,4,0,3,3,1,5,5,3,1,4,1,2,"Si, alguna vez",0,0,1,0,0,0,1,0,0,0,0,0,Si,5,5
+187,Europa,Mujer,Posgrado,2,4,Mas de dos años,Varias veces al dia,5,0,0,1,0,0,1,2,1,2,4,3,3,"Si, alguna vez",1,1,0,1,0,0,0,1,0,0,1,0,Puede,3,3
+188,Europa,Mujer,Posgrado,3,4,Mas de dos años,Varias veces al dia,5,0,0,4,0,0,5,5,2,0,4,4,3,"Si, alguna vez",1,0,0,1,0,0,0,1,1,0,0,0,Puede,3,4
+189,Europa,Mujer,Posgrado,4,3,Mas de dos años,Varias veces al dia,5,3,1,5,3,3,5,5,4,4,5,3,4,"Si, alguna vez",1,1,1,1,1,0,1,0,0,1,1,0,Si,3,4
+190,Europa,Mujer,Profesion,3,4,Mas de dos años,Varias veces al dia,3,2,2,5,1,2,4,5,1,4,3,4,3,"Si, alguna vez",1,1,1,1,1,0,1,0,0,1,1,0,"No, pero me gustaria",4,5
+191,Europa,Mujer,Grado,5,0,Mas de dos años,Varias veces al dia,5,1,0,5,3,3,5,5,3,3,4,3,2,"Si, alguna vez",0,0,1,0,1,0,1,1,0,0,1,0,"No, pero me gustaria",5,5
+192,Europa,Mujer,Grado,2,1,Menos de dos años,Varias veces al dia,5,3,1,4,3,4,4,5,3,5,2,2,1,"Si, muy a menudo",0,1,0,0,1,0,0,1,0,1,1,0,Si,1,1
+193,Europa,Hombre,Posgrado,3,4,Menos de un año,Varias veces al dia,1,3,5,4,3,3,2,2,1,1,3,1,2,"Si, alguna vez",0,1,0,1,1,0,0,1,0,1,1,0,"No, pero me gustaria",3,3
+194,Europa,No binarie,Profesion,4,2,Mas de dos años,Varias veces al dia,5,0,0,2,0,0,4,5,4,3,4,4,2,"Si, muy a menudo",0,1,0,0,1,0,0,0,0,1,0,0,Puede,5,4
+195,Europa,Mujer,Grado,3,5,Mas de dos años,Varias veces al dia,0,0,2,0,0,0,2,2,0,3,4,3,5,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,"No, pero me gustaria",5,5
+196,Europa,Mujer,Grado,4,5,Mas de dos años,Varias veces al dia,4,1,3,4,0,0,3,5,5,4,5,1,3,"Si, alguna vez",1,1,1,1,1,0,1,1,1,1,1,0,Si,4,4
+197,Europa,Mujer,Grado,4,3,Mas de dos años,Varias veces al dia,3,5,2,1,0,1,5,5,2,5,3,2,3,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,0,0,0,Puede,3,4
+198,Europa,Mujer,Profesion,3,3,Menos de 6 meses,Varias veces al dia,3,0,0,0,0,0,3,0,0,1,3,2,2,"Si, alguna vez",1,0,0,0,0,0,0,0,0,0,1,0,"No, y no me gustaria",3,3
+199,Europa,Mujer,Profesion,5,1,Mas de dos años,Varias veces al dia,4,1,0,1,1,0,5,5,3,1,4,4,4,"Si, alguna vez",0,0,1,1,0,0,1,0,0,1,0,0,Puede,4,3
+200,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,3,3,0,2,0,0,5,5,1,3,3,3,2,"Si, muy a menudo",1,1,1,0,0,0,1,1,0,0,0,0,"No, pero me gustaria",3,4
+201,Europa,Mujer,Interes,4,4,Mas de dos años,Varias veces al dia,5,0,0,5,5,5,5,5,4,3,5,3,4,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,0,0,"No, pero me gustaria",5,5
+202,Europa,Hombre,Grado,3,3,Mas de dos años,Varias veces al dia,5,2,0,3,4,4,5,5,3,4,4,3,2,"Si, alguna vez",1,0,1,0,1,0,0,0,0,1,1,0,"No, pero me gustaria",3,3
+203,Europa,Hombre,Grado,4,3,Mas de dos años,Varias veces al dia,5,1,1,2,0,0,2,4,3,1,4,3,4,"Si, alguna vez",1,0,1,0,0,0,0,0,0,0,1,0,"No, pero me gustaria",5,5
+204,Europa,Mujer,Posgrado,3,3,Mas de dos años,Varias veces al dia,5,0,5,0,0,1,5,3,2,3,5,5,4,"Si, muy a menudo",1,0,1,1,1,0,1,1,1,0,1,0,"No, pero me gustaria",4,4
+205,Europa,Mujer,Profesion,5,5,Mas de dos años,Varias veces al dia,5,4,3,3,5,3,5,3,4,0,5,4,3,"Si, muy a menudo",0,0,0,0,1,0,1,0,1,0,0,0,Puede,4,5
+206,Europa,Mujer,Posgrado,5,3,Mas de dos años,Varias veces por semana,5,1,0,3,2,3,4,4,3,2,4,4,4,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,0,0,Puede,4,4
+207,Europa,Mujer,Posgrado,5,3,Mas de dos años,Varias veces al dia,5,1,0,2,1,1,4,5,3,0,4,5,4,"Si, alguna vez",1,0,0,1,0,0,1,0,1,1,1,0,Puede,4,4
+208,Europa,Mujer,Grado,5,3,Mas de dos años,Varias veces al dia,2,4,0,3,1,2,2,4,4,3,2,2,1,"Si, muy a menudo",1,0,1,1,1,0,1,0,1,0,1,0,Si,4,3
+209,Europa,Hombre,Profesion,4,4,Menos de un año,Varias veces por semana,1,3,0,5,0,0,3,4,1,0,5,2,3,"Si, alguna vez",1,0,1,0,0,0,1,0,1,0,0,0,Puede,5,5
+210,Europa,No binarie,Interes,4,2,Mas de dos años,Varias veces al dia,5,3,5,5,3,2,4,5,2,3,3,2,0,"Si, muy a menudo",1,1,0,0,1,0,0,1,0,1,1,0,"No, y no me gustaria",0,1
+211,Europa,Mujer,Grado,5,3,Menos de un año,Varias veces al dia,5,1,0,3,5,5,4,5,3,3,3,4,4,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,0,1,0,Puede,5,3
+212,Europa,Mujer,Posgrado,4,1,Mas de dos años,Varias veces al dia,5,0,0,4,3,3,5,5,5,3,5,3,1,"Si, alguna vez",0,0,0,1,1,0,1,0,0,0,1,0,"No, pero me gustaria",3,5
+213,Europa,Hombre,Profesion,4,4,Mas de dos años,Varias veces al dia,5,0,1,5,1,2,5,5,3,1,4,4,4,"Si, una vez",0,0,0,0,1,0,0,0,0,1,0,0,Si,2,2
+214,Europa,Hombre,Interes,4,2,Menos de un año,Una vez al dia,2,5,0,3,5,1,2,4,4,1,3,2,1,"Si, alguna vez",0,0,0,0,1,0,0,0,1,1,1,0,"No, pero me gustaria",4,4
+215,Europa,Mujer,Posgrado,4,1,Mas de dos años,Varias veces al dia,5,1,1,3,1,1,5,5,4,3,4,3,4,"Si, muy a menudo",1,1,0,1,0,0,0,1,1,1,1,0,Puede,2,2
+216,Europa,Hombre,Profesion,4,2,Mas de dos años,Varias veces por semana,2,4,0,5,4,3,5,5,1,3,4,2,4,"Si, alguna vez",0,1,0,0,0,0,1,0,0,0,0,0,Si,4,4
+217,Europa,Mujer,Posgrado,4,2,Mas de dos años,Varias veces al dia,5,1,4,2,1,1,3,5,0,4,5,3,4,"Si, muy a menudo",1,1,1,1,1,0,1,0,0,0,1,0,Puede,1,1
+218,Europa,Hombre,Profesion,5,3,Mas de dos años,Varias veces al dia,5,0,3,1,0,0,5,5,3,1,3,1,2,"Si, muy a menudo",1,0,1,0,0,0,1,1,1,1,1,0,"No, pero me gustaria",5,5
+219,Europa,Mujer,Posgrado,4,3,Menos de dos años,Casi nunca,2,0,0,1,0,0,0,5,0,0,5,4,2,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Puede,4,4
+220,Latinoamerica,Mujer,Grado,4,3,Mas de dos años,Varias veces al dia,5,0,0,5,0,0,5,5,5,2,4,3,1,"Si, alguna vez",0,1,0,0,1,0,1,1,0,1,0,0,"No, pero me gustaria",5,5
+221,Europa,Mujer,Posgrado,4,3,Mas de dos años,Varias veces al dia,4,3,2,3,3,4,4,5,3,4,4,4,3,"Si, alguna vez",1,1,0,1,0,0,0,0,0,1,1,0,"No, pero me gustaria",4,4
+222,Europa,Mujer,Profesion,5,4,Menos de un año,Varias veces al dia,5,0,0,1,0,0,5,5,5,3,5,4,3,"Si, alguna vez",1,0,1,0,0,0,0,1,0,0,0,0,Si,5,5
+223,Europa,Mujer,Interes,3,3,Mas de dos años,Varias veces al dia,5,4,1,1,0,0,4,5,1,4,3,3,3,"Si, alguna vez",1,1,0,0,0,0,0,0,0,1,1,0,"No, pero me gustaria",4,4
+224,Europa,Mujer,Posgrado,3,2,Menos de dos años,Varias veces al dia,5,0,4,0,0,0,1,5,1,1,4,2,4,"Si, muy a menudo",1,1,1,0,0,0,0,1,0,1,1,0,"No, pero me gustaria",4,5
+225,Europa,Hombre,Grado,4,3,Mas de dos años,Una vez al dia,5,2,0,3,0,1,5,5,4,3,4,3,4,"Si, alguna vez",1,1,1,1,0,0,1,1,0,1,1,0,"No, pero me gustaria",4,4
+226,Europa,Hombre,Posgrado,3,4,Mas de dos años,Varias veces al dia,4,1,0,5,1,2,3,5,5,1,4,3,3,"Si, alguna vez",1,1,1,0,1,0,1,0,1,1,1,0,Puede,3,3
+227,Europa,Mujer,Posgrado,5,4,Mas de dos años,Varias veces al dia,0,0,5,0,0,0,1,1,0,3,3,4,2,"Si, alguna vez",1,1,1,1,0,0,1,1,1,1,1,0,Si,5,4
+228,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,4,1,2,1,1,1,5,5,3,4,3,3,4,"Si, muy a menudo",1,1,0,1,1,0,0,0,0,0,1,0,Puede,3,4
+229,Europa,Mujer,Posgrado,2,3,Menos de dos años,Varias veces al dia,5,0,2,4,0,0,5,5,1,2,4,4,4,"Si, alguna vez",1,0,0,1,0,0,0,1,0,0,1,0,"No, pero me gustaria",4,4
+230,Europa,Mujer,Posgrado,4,3,Mas de dos años,Varias veces por semana,2,0,0,1,0,0,3,5,1,1,3,3,4,"Si, alguna vez",1,1,0,0,0,0,0,1,1,0,0,0,Puede,3,3
+231,Europa,Hombre,Interes,4,3,Mas de dos años,Varias veces al dia,0,1,5,0,0,4,5,5,4,4,4,1,0,"Si, alguna vez",0,0,1,0,0,0,1,0,0,0,0,0,"No, y no me gustaria",0,1
+232,Europa,Hombre,Profesion,4,3,Mas de dos años,Varias veces al dia,5,1,0,1,0,0,5,5,4,1,4,4,3,"Si, alguna vez",0,1,1,0,0,0,0,0,1,1,1,0,"No, pero me gustaria",4,4
+233,Europa,Hombre,Profesion,4,3,Mas de dos años,Varias veces al dia,2,4,0,2,2,0,5,5,4,0,3,2,2,"Si, alguna vez",0,0,1,0,1,0,1,0,1,0,0,0,"No, y no me gustaria",0,1
+234,Europa,Hombre,Grado,4,4,Mas de dos años,Varias veces al dia,3,4,0,2,0,0,5,5,5,2,5,4,5,"Si, muy a menudo",0,0,1,1,0,0,1,1,1,0,0,0,Puede,5,5
+235,Europa,Mujer,Posgrado,4,3,Mas de dos años,Varias veces al dia,4,0,1,1,2,1,2,3,1,1,2,2,4,"Si, muy a menudo",1,0,1,1,0,0,1,0,0,1,1,0,Puede,2,3
+236,Europa,No binarie,Grado,2,4,Menos de un año,Varias veces al dia,0,0,4,3,5,4,0,0,0,2,4,4,5,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,"No, pero me gustaria",4,2
+237,Europa,Hombre,Posgrado,0,5,Mas de dos años,Una vez al dia,3,4,2,4,4,4,5,5,5,4,4,5,5,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Si,5,5
+238,Europa,Mujer,Profesion,4,4,Mas de dos años,Una vez al dia,5,0,5,0,0,0,2,2,0,1,3,1,1,"Si, muy a menudo",1,1,1,1,1,0,0,1,0,1,1,0,"No, y no me gustaria",2,2
+239,Europa,Hombre,Profesion,4,4,Mas de dos años,Varias veces al dia,5,2,0,5,1,2,5,5,5,1,5,0,4,"Si, alguna vez",1,0,1,1,0,0,1,0,0,0,1,0,Si,5,5
+240,Europa,Mujer,Grado,3,4,Mas de dos años,Una vez por semana,5,0,0,0,0,0,4,3,0,0,3,4,4,"Si, alguna vez",1,1,1,1,0,0,1,1,0,0,0,0,"No, pero me gustaria",3,3
+241,Europa,Mujer,Posgrado,3,4,Mas de dos años,Varias veces al dia,3,2,3,2,0,0,4,4,0,1,4,2,3,"Si, muy a menudo",1,1,1,1,0,0,1,0,0,0,0,0,"No, pero me gustaria",3,2
+242,Europa,Hombre,Posgrado,3,4,Menos de dos años,Varias veces al dia,2,3,5,3,1,0,5,5,3,3,2,2,2,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Puede,0,1
+243,Europa,Mujer,Posgrado,3,3,Mas de dos años,Varias veces al dia,4,2,0,4,1,0,5,5,3,1,4,2,3,"Si, muy a menudo",1,0,1,0,1,0,1,1,0,0,0,0,"No, pero me gustaria",3,2
+244,Europa,Hombre,Profesion,3,4,Mas de dos años,Varias veces al dia,2,3,0,3,1,1,5,5,4,1,3,4,4,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,0,0,"No, y no me gustaria",1,2
+245,Europa,Mujer,Grado,5,5,Mas de dos años,Varias veces al dia,5,1,0,5,3,3,5,5,5,1,5,2,4,"Si, alguna vez",1,1,1,1,1,0,0,1,0,1,1,0,Si,3,4
+246,Europa,Mujer,Posgrado,2,3,Mas de dos años,Varias veces al dia,5,1,0,3,0,1,4,5,2,1,1,1,1,"Si, muy a menudo",1,0,0,0,1,0,0,1,0,0,1,0,"No, y no me gustaria",1,2
+247,Europa,Hombre,Posgrado,3,3,Mas de dos años,Varias veces al dia,4,1,0,4,0,1,4,5,2,2,3,4,3,"Si, alguna vez",0,1,1,1,1,0,1,1,1,1,0,0,Si,4,4
+248,Europa,Hombre,Profesion,4,4,Mas de dos años,Varias veces al dia,4,3,1,2,3,2,4,4,0,1,5,5,4,"Si, alguna vez",0,1,1,0,0,0,1,1,0,0,0,0,Si,4,4
+249,Latinoamerica,Mujer,Posgrado,4,3,Mas de dos años,Una vez al dia,5,0,0,3,0,0,5,5,5,1,3,2,0,"Si, alguna vez",0,0,0,0,1,0,0,1,0,0,0,0,"No, y no me gustaria",4,5
+250,Europa,Hombre,Posgrado,1,3,Mas de dos años,Varias veces al dia,0,2,0,2,0,0,4,4,3,0,2,1,1,"Si, alguna vez",0,0,0,0,1,0,0,0,0,0,1,0,"No, y no me gustaria",1,1
+251,Europa,Mujer,Profesion,4,3,Mas de dos años,Varias veces al dia,4,0,2,1,0,0,4,5,1,2,3,3,4,"Si, muy a menudo",0,0,1,1,0,0,0,1,1,1,1,0,"No, pero me gustaria",4,4
+252,Europa,Hombre,Profesion,4,4,Menos de un año,Varias veces al dia,4,5,0,4,3,0,3,5,3,1,4,4,4,"Si, alguna vez",0,0,0,0,1,0,0,1,0,0,0,0,Puede,5,5
+253,Latinoamerica,Hombre,Grado,5,4,Mas de dos años,Varias veces al dia,5,2,0,2,0,0,4,5,3,3,4,3,2,"Si, alguna vez",1,0,1,1,1,0,1,1,1,1,1,0,Si,5,4
+254,Europa,Mujer,Interes,4,4,Mas de dos años,Varias veces por semana,0,0,5,0,0,0,3,5,1,2,3,2,2,"Si, una vez",1,1,0,1,1,0,0,0,0,0,1,0,"No, pero me gustaria",5,5
+255,Europa,Mujer,Grado,4,3,Mas de dos años,Varias veces al dia,5,1,0,3,1,1,5,5,3,3,4,5,4,"Si, alguna vez",1,1,0,1,1,0,1,1,0,0,1,0,Si,5,5
+256,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,5,0,0,5,4,3,1,5,0,5,5,3,3,"Si, alguna vez",1,1,1,1,0,0,1,1,0,1,1,0,"No, pero me gustaria",5,5
+257,Europa,Hombre,Interes,0,4,Mas de dos años,Varias veces al dia,5,0,0,1,0,0,5,4,0,1,5,4,4,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,"No, y no me gustaria",0,0
+258,Europa,Mujer,Posgrado,5,1,Mas de dos años,Varias veces al dia,5,0,0,3,0,0,2,5,3,3,4,3,3,"Si, muy a menudo",1,1,1,1,1,0,0,1,1,1,1,0,"No, pero me gustaria",3,4
+259,Europa,Mujer,Profesion,4,3,Menos de dos años,Varias veces al dia,5,0,0,0,0,0,1,2,1,2,3,3,4,"Si, muy a menudo",1,0,1,1,0,0,1,0,0,0,0,0,"No, pero me gustaria",1,2
+260,Europa,Hombre,Grado,4,5,Mas de dos años,Varias veces al dia,5,0,0,5,0,1,2,3,4,3,4,2,1,"Si, alguna vez",0,0,1,1,1,0,0,1,1,0,1,0,"No, y no me gustaria",1,3
+261,Latinoamerica,Mujer,Profesion,4,5,Mas de dos años,Varias veces al dia,5,0,0,1,1,1,2,3,2,4,4,3,4,"Si, alguna vez",0,0,1,0,0,0,0,0,0,1,0,0,"No, pero me gustaria",4,3
+262,Europa,Mujer,Profesion,4,1,Mas de dos años,Varias veces al dia,5,1,1,1,0,0,2,3,0,3,2,3,4,"Si, alguna vez",0,0,0,0,0,0,0,0,0,0,0,0,Puede,3,3
+263,Europa,Mujer,Grado,4,4,Menos de dos años,Varias veces al dia,5,3,0,1,0,0,4,4,2,3,4,4,4,"Si, alguna vez",1,0,1,1,0,0,1,1,0,0,0,0,"No, pero me gustaria",4,5
+264,Europa,Mujer,Grado,4,1,Menos de dos años,Varias veces al dia,5,0,1,1,0,0,5,5,4,2,5,5,4,"Si, muy a menudo",1,0,1,1,0,0,1,1,0,0,1,0,Si,5,5
+265,Europa,Hombre,Grado,2,4,Mas de dos años,Varias veces al dia,2,5,0,4,4,4,2,5,0,3,5,4,1,"Si, muy a menudo",1,0,0,0,0,0,0,0,0,0,1,0,Puede,3,3
+266,Europa,Mujer,Posgrado,4,4,Mas de dos años,Varias veces al dia,3,4,0,3,3,2,4,5,1,0,5,3,4,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Si,5,5
+267,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,5,1,0,4,0,0,5,5,5,4,4,3,2,"Si, muy a menudo",1,1,1,1,1,0,1,1,0,0,1,0,"No, pero me gustaria",3,5
+268,Europa,Hombre,Grado,3,2,Mas de dos años,Varias veces al dia,5,0,3,3,2,2,5,5,0,1,5,4,3,"Si, muy a menudo",1,0,1,1,0,0,1,0,0,1,1,0,"No, pero me gustaria",5,5
+269,Europa,Mujer,Posgrado,4,1,Mas de dos años,Varias veces por semana,4,0,0,0,0,0,0,3,0,0,3,2,3,"Si, alguna vez",1,1,1,1,1,0,1,1,1,1,0,0,"No, pero me gustaria",3,3
+270,Europa,Mujer,Grado,1,5,Menos de un año,Varias veces al dia,0,0,0,4,3,4,4,3,4,3,1,1,1,"Si, muy a menudo",1,1,0,0,1,0,0,1,0,0,1,0,"No, pero me gustaria",0,0
+271,Europa,Mujer,Profesion,3,3,Mas de dos años,Varias veces al dia,4,3,4,4,1,2,3,5,4,3,4,3,4,"Si, muy a menudo",0,0,0,0,1,0,0,1,0,1,1,0,Puede,3,3
+272,Europa,Hombre,Profesion,3,4,Mas de dos años,Varias veces al dia,5,3,0,4,1,1,4,4,3,3,3,3,3,"Si, alguna vez",0,1,0,0,1,0,0,0,1,0,0,0,"No, y no me gustaria",2,2
+273,Europa,Mujer,Interes,0,2,Mas de dos años,Varias veces al dia,3,4,0,2,0,0,3,5,1,3,5,5,4,"Si, alguna vez",1,1,1,1,0,0,1,0,0,1,1,0,"No, pero me gustaria",2,3
+274,Latinoamerica,Mujer,Grado,4,1,Mas de dos años,Varias veces al dia,5,0,0,5,0,1,5,5,5,4,5,3,4,"Si, alguna vez",1,0,0,0,1,0,0,0,0,1,1,0,"No, pero me gustaria",4,5
+275,Latinoamerica,Hombre,Profesion,3,5,Mas de dos años,Varias veces al dia,5,0,0,0,0,0,0,1,0,1,4,4,4,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Puede,2,3
+276,Latinoamerica,Hombre,Grado,4,3,Mas de dos años,Varias veces por semana,4,3,2,5,4,2,5,5,5,4,5,3,0,"Si, muy a menudo",0,0,1,1,1,0,1,1,0,0,1,0,Si,5,4
+277,Europa,Mujer,Grado,3,4,Mas de dos años,Varias veces al dia,5,1,1,5,1,2,5,5,5,3,5,5,4,"Si, muy a menudo",1,0,0,1,0,0,0,0,1,1,1,0,Si,5,5
+278,Europa,Mujer,Posgrado,5,2,Mas de dos años,Varias veces al dia,4,3,1,5,4,1,4,5,4,4,2,3,2,"Si, muy a menudo",1,1,1,1,1,0,1,1,0,1,1,0,Si,3,2
+279,Latinoamerica,Hombre,Profesion,3,3,Mas de dos años,Una vez al dia,4,2,1,5,4,4,3,5,2,2,4,1,1,"Si, muy a menudo",0,1,1,0,1,0,0,1,1,1,0,0,Puede,4,5
+280,Europa,Hombre,Profesion,4,4,Mas de dos años,Varias veces por semana,2,1,2,2,2,1,3,4,1,1,4,2,3,"Si, alguna vez",0,0,1,0,0,0,0,0,1,0,0,0,"No, pero me gustaria",4,3
+281,Europa,Hombre,Grado,4,5,Mas de dos años,Varias veces al dia,5,0,0,5,1,0,4,4,4,4,4,3,1,"Si, muy a menudo",0,1,0,0,0,0,0,0,1,1,0,0,Puede,2,2
+282,Europa,Mujer,Posgrado,2,2,Mas de dos años,Varias veces al dia,3,0,1,1,0,0,5,5,0,3,2,2,3,"Si, muy a menudo",1,1,1,1,0,0,0,1,0,0,1,0,"No, pero me gustaria",5,3
+283,Europa,Mujer,Interes,2,3,Mas de dos años,Varias veces al dia,1,0,4,5,5,3,3,5,1,2,4,3,0,"Si, alguna vez",1,0,0,0,0,0,0,0,0,0,1,0,"No, y no me gustaria",0,1
+284,Europa,Mujer,Profesion,3,3,Mas de dos años,Varias veces al dia,5,0,2,2,0,1,2,5,1,1,4,3,4,"Si, alguna vez",1,1,0,0,1,0,0,0,0,1,0,0,"No, y no me gustaria",3,3
+285,Europa,Mujer,Posgrado,4,3,Mas de dos años,Varias veces al dia,5,0,0,5,0,2,5,5,5,3,1,2,1,"Si, muy a menudo",1,1,1,1,1,0,0,0,0,1,1,0,"No, y no me gustaria",0,0
+286,Latinoamerica,Mujer,Grado,4,4,Mas de dos años,Varias veces al dia,5,0,3,2,0,0,3,5,0,3,3,0,0,"Si, muy a menudo",1,0,0,1,1,0,1,0,0,0,1,0,"No, pero me gustaria",2,3
+287,Europa,Mujer,Posgrado,3,4,Mas de dos años,Varias veces al dia,4,0,5,5,0,1,5,5,5,3,4,3,4,"Si, alguna vez",0,0,0,0,0,0,1,0,0,0,1,0,"No, pero me gustaria",3,3
+288,Europa,Mujer,Posgrado,4,1,Mas de dos años,Varias veces al dia,5,1,1,5,4,4,5,5,5,3,2,3,3,"Si, alguna vez",1,1,1,1,1,0,1,1,1,1,0,0,Si,1,1
+289,Europa,Hombre,Profesion,4,2,Menos de dos años,Varias veces al dia,1,3,0,2,1,0,2,3,1,1,2,2,2,"Si, alguna vez",0,1,0,1,1,0,1,0,1,0,0,0,"No, pero me gustaria",2,2
+290,Europa,Mujer,Grado,3,4,Mas de dos años,Varias veces al dia,4,0,5,1,0,0,5,5,5,1,3,2,0,"Si, muy a menudo",0,1,1,1,1,0,1,1,1,1,1,0,"No, y no me gustaria",0,2
+291,Europa,Hombre,Profesion,4,4,Menos de 6 meses,Varias veces al dia,3,5,1,2,1,0,1,4,3,0,3,2,1,"Si, muy a menudo",0,0,0,0,1,0,1,0,1,1,0,0,Puede,3,2
+292,Europa,Mujer,Grado,4,2,Mas de dos años,Una vez al dia,5,0,5,5,0,3,4,5,2,1,5,4,2,"Si, alguna vez",1,0,0,0,0,0,0,0,0,0,1,0,"No, pero me gustaria",3,4
+293,Latinoamerica,Mujer,Profesion,4,4,Mas de dos años,Una vez al dia,5,0,3,0,0,0,4,5,3,3,4,4,4,"Si, alguna vez",1,0,1,1,0,0,0,1,0,0,0,0,"No, pero me gustaria",4,5
+294,Europa,Mujer,Grado,2,4,Mas de dos años,Varias veces al dia,2,1,1,1,0,0,2,2,1,5,1,1,3,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Si,5,5
+295,Europa,Mujer,Interes,4,4,Mas de dos años,Varias veces al dia,3,4,4,5,4,4,5,5,4,0,4,4,3,"Si, alguna vez",1,1,0,0,1,0,1,1,0,0,1,0,Si,4,4
+296,Europa,Mujer,Profesion,5,5,Mas de dos años,Varias veces al dia,5,1,0,2,2,1,5,5,2,0,2,1,1,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,"No, y no me gustaria",0,1
+297,Europa,Mujer,Posgrado,3,1,Mas de dos años,Varias veces al dia,2,0,0,1,1,1,2,2,1,3,4,3,3,"Si, alguna vez",1,0,1,1,0,0,0,1,0,0,1,0,"No, pero me gustaria",3,3
+298,Europa,Mujer,Grado,3,3,Mas de dos años,Varias veces al dia,4,1,0,5,0,1,5,5,5,3,3,4,2,"Si, muy a menudo",1,0,1,1,0,0,1,0,0,0,1,0,Puede,4,4
+299,Europa,Mujer,Grado,4,4,Mas de dos años,Varias veces al dia,5,0,0,3,0,1,4,5,2,3,4,2,2,"Si, muy a menudo",1,0,1,1,1,0,0,1,1,1,0,0,"No, pero me gustaria",4,4
+300,Europa,Mujer,Interes,4,2,Mas de dos años,Varias veces al dia,5,0,3,4,2,4,1,5,2,5,3,3,5,"Si, muy a menudo",1,1,0,1,1,0,0,1,0,1,1,0,"No, pero me gustaria",3,1
+301,Europa,Hombre,Posgrado,4,3,Mas de dos años,Varias veces al dia,5,0,1,4,0,0,4,4,4,2,4,3,4,"Si, alguna vez",0,0,1,1,0,0,1,0,1,0,0,0,"No, pero me gustaria",3,4
+302,Europa,Hombre,Profesion,5,5,Menos de dos años,Una vez al dia,5,5,0,3,3,3,3,3,3,1,5,4,4,"Si, alguna vez",1,0,0,1,0,0,0,0,1,0,0,0,Puede,3,3
+303,Europa,Mujer,Posgrado,3,3,Menos de un año,Una vez al dia,5,0,3,4,0,0,3,5,3,0,3,2,2,"Si, alguna vez",1,0,1,0,1,0,0,1,1,1,0,0,"No, pero me gustaria",4,3
+304,Europa,Mujer,Profesion,3,2,Mas de dos años,Varias veces al dia,4,0,0,1,3,2,4,4,1,0,4,4,4,"Si, alguna vez",1,1,1,1,0,0,0,1,0,0,1,0,"No, pero me gustaria",3,4
+305,Europa,Mujer,Grado,1,5,Mas de dos años,Una vez al dia,1,3,0,1,0,0,3,3,1,1,5,5,5,"Si, alguna vez",1,0,0,0,0,0,0,0,0,0,1,0,"No, pero me gustaria",3,3
+306,Europa,Mujer,Grado,3,2,Menos de dos años,Varias veces al dia,5,0,1,0,0,0,5,5,2,3,3,4,3,"Si, alguna vez",0,1,1,1,0,0,0,1,0,0,1,0,"No, pero me gustaria",5,5
+307,Europa,Hombre,Posgrado,3,4,Mas de dos años,Una vez al dia,5,0,0,1,0,0,2,3,1,3,3,2,2,"Si, alguna vez",0,1,1,1,0,0,0,0,1,1,0,0,Puede,2,3
+308,Latinoamerica,Mujer,Grado,5,3,Mas de dos años,Varias veces al dia,5,1,0,3,0,0,5,5,3,3,4,3,3,"Si, alguna vez",1,0,1,1,0,0,0,0,0,0,1,0,"No, pero me gustaria",5,5
+309,Europa,Mujer,Posgrado,4,2,Mas de dos años,Varias veces al dia,5,0,0,5,1,2,5,5,5,1,5,4,4,"Si, muy a menudo",0,0,1,1,1,0,1,1,1,1,0,0,Si,5,5
+310,Europa,Mujer,Profesion,4,4,Menos de un año,Varias veces al dia,3,1,3,0,0,0,2,4,4,2,4,4,4,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,0,0,Puede,2,2
+311,Latinoamerica,Mujer,Grado,3,4,Menos de 6 meses,Varias veces al dia,5,3,0,4,0,0,5,5,4,3,4,4,5,"Si, alguna vez",1,0,1,1,1,0,0,0,0,0,1,0,Puede,3,5
+312,Europa,Hombre,Posgrado,5,2,Menos de 6 meses,Una vez al dia,0,0,5,0,0,0,0,5,0,0,2,1,1,"No, nunca",0,0,0,0,0,1,0,0,1,0,0,0,"No, y no me gustaria",2,1
+313,Latinoamerica,Mujer,Grado,5,4,Menos de dos años,Varias veces por semana,5,0,0,0,0,0,5,5,3,3,5,3,3,"Si, muy a menudo",1,1,0,1,0,0,1,0,0,1,1,0,Puede,4,5
+314,Europa,Mujer,Interes,0,4,Mas de dos años,Varias veces al dia,2,1,0,1,2,1,1,2,2,2,4,3,5,"Si, muy a menudo",1,0,0,1,1,0,1,1,0,1,1,0,"No, pero me gustaria",5,4
+315,Latinoamerica,Mujer,Profesion,5,2,Mas de dos años,Varias veces al dia,3,0,1,3,0,0,3,3,1,3,4,3,3,"Si, muy a menudo",1,0,0,1,1,0,1,0,0,1,1,0,"No, y no me gustaria",3,2
+316,Latinoamerica,Hombre,Profesion,3,3,Mas de dos años,Una vez al dia,5,1,0,3,0,0,2,2,3,1,4,5,4,"Si, alguna vez",0,0,0,0,1,0,0,1,0,0,0,0,Si,4,4
+317,Latinoamerica,Mujer,Grado,4,4,Menos de un año,Varias veces al dia,5,1,0,5,0,1,1,4,1,2,4,4,3,"Si, alguna vez",1,0,0,0,0,0,0,0,0,0,1,0,"No, pero me gustaria",1,3
+318,Latinoamerica,Mujer,Interes,3,5,Mas de dos años,Varias veces al dia,5,2,0,5,1,1,5,5,2,1,5,3,1,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,"No, y no me gustaria",3,2
+319,Latinoamerica,Mujer,Grado,4,2,Mas de dos años,Varias veces por semana,4,3,1,2,4,1,4,4,0,2,3,1,1,"Si, muy a menudo",1,0,1,0,1,0,1,0,0,1,1,0,"No, pero me gustaria",4,5
+320,Europa,Hombre,Grado,4,3,Menos de 6 meses,Varias veces al dia,5,1,0,1,0,0,5,5,1,4,5,5,4,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,1,1,0,Puede,5,5
+321,Europa,Mujer,Profesion,4,0,Mas de dos años,Varias veces por semana,5,0,2,2,0,1,5,5,3,2,2,1,0,"Si, muy a menudo",1,1,1,1,1,0,0,1,1,0,1,0,"No, y no me gustaria",3,0
+322,Latinoamerica,Mujer,Grado,2,2,Menos de un año,Varias veces al dia,1,0,5,2,2,1,4,5,2,2,4,2,3,"Si, muy a menudo",0,0,0,0,0,0,0,0,0,0,1,0,"No, pero me gustaria",4,3
+323,Europa,Mujer,Interes,2,4,Mas de dos años,Varias veces al dia,5,2,0,5,1,1,4,5,3,2,4,4,4,"Si, alguna vez",0,0,0,1,1,0,0,0,0,1,1,0,"No, pero me gustaria",4,4
+324,Europa,Hombre,Grado,2,3,Mas de dos años,Varias veces al dia,5,1,2,1,0,0,4,4,1,2,4,4,3,"Si, muy a menudo",1,0,0,0,1,0,0,0,0,1,1,0,Puede,2,4
+325,Europa,Mujer,Profesion,4,3,Menos de un año,Varias veces por semana,2,3,0,1,0,0,4,5,2,0,4,4,5,"Si, alguna vez",1,1,1,1,0,0,1,0,0,0,1,0,"No, pero me gustaria",5,5
+326,Europa,Hombre,Profesion,1,3,Mas de dos años,Varias veces al dia,0,3,2,0,0,0,3,4,2,0,3,2,1,"Si, alguna vez",0,0,0,0,1,0,0,0,1,0,0,0,Puede,2,3
+327,Europa,Hombre,Posgrado,3,4,Mas de dos años,Varias veces al dia,4,4,0,3,1,1,5,5,4,4,4,4,2,"Si, muy a menudo",1,0,1,1,1,0,1,0,1,0,1,0,Si,5,4
+328,Europa,Mujer,Posgrado,4,3,Mas de dos años,Varias veces al dia,5,0,2,0,0,0,0,5,0,0,2,2,2,"Si, alguna vez",1,0,0,0,0,0,0,0,0,0,1,0,"No, y no me gustaria",4,3
+329,Europa,Mujer,Posgrado,3,2,Mas de dos años,Varias veces al dia,4,3,0,4,2,3,3,4,1,4,4,3,3,"Si, alguna vez",0,0,1,1,0,0,0,1,1,1,0,0,"No, pero me gustaria",3,3
+330,Europa,Mujer,Grado,4,2,Menos de 6 meses,Varias veces por semana,0,1,5,0,0,0,2,4,1,0,4,4,3,"Si, alguna vez",1,0,1,1,0,0,1,1,0,0,1,0,Puede,5,4
+331,Latinoamerica,Mujer,Profesion,4,5,Mas de dos años,Una vez al dia,5,3,3,1,0,0,5,5,2,3,4,4,4,"Si, alguna vez",0,0,1,0,0,0,0,0,0,0,1,0,Si,4,5
+332,Europa,Mujer,Posgrado,3,4,Mas de dos años,Varias veces al dia,2,0,1,0,0,0,5,5,1,3,4,4,4,"Si, alguna vez",0,0,1,1,0,0,0,1,0,0,0,0,"No, pero me gustaria",2,2
+333,Europa,Mujer,Profesion,3,3,Mas de dos años,Varias veces al dia,4,3,4,1,0,0,4,4,4,1,4,4,4,"Si, alguna vez",0,0,0,0,1,0,1,0,1,1,0,0,"No, pero me gustaria",4,4
+334,Europa,Mujer,Grado,4,3,Menos de dos años,Varias veces al dia,3,4,0,1,5,5,5,5,1,3,5,4,3,"Si, muy a menudo",1,1,0,0,1,0,1,1,0,1,0,0,Puede,5,5
+335,Europa,Mujer,Interes,4,2,Menos de dos años,Varias veces al dia,3,0,2,5,0,0,5,5,5,4,4,5,2,"Si, alguna vez",1,1,0,1,1,0,0,0,0,1,1,0,"No, y no me gustaria",3,3
+336,Europa,Hombre,Posgrado,3,4,Mas de dos años,Varias veces al dia,5,1,1,1,0,0,3,4,1,2,1,2,3,"Si, alguna vez",1,0,0,0,1,0,0,1,1,0,1,0,Puede,3,3
+337,Latinoamerica,Hombre,Posgrado,3,4,Menos de un año,Una vez por semana,3,2,0,4,3,0,5,3,5,0,3,3,2,"Si, alguna vez",1,0,1,0,1,0,1,1,0,0,1,0,"No, pero me gustaria",4,5
+338,Latinoamerica,Hombre,Grado,2,3,Menos de un año,Varias veces al dia,5,2,0,2,3,1,4,4,1,3,4,4,3,"Si, alguna vez",1,1,0,0,0,0,0,0,0,0,1,0,"No, pero me gustaria",4,4
+339,Europa,No binarie,Profesion,3,1,Mas de dos años,Varias veces al dia,0,4,0,4,0,0,3,5,4,0,1,4,2,"Si, muy a menudo",0,0,0,0,1,0,0,0,1,1,0,0,"No, pero me gustaria",0,1
+340,Europa,Hombre,Posgrado,3,1,Mas de dos años,Varias veces al dia,2,1,0,1,0,0,2,2,3,2,2,0,0,"Si, alguna vez",0,0,0,0,0,0,0,0,0,0,1,0,"No, y no me gustaria",3,0
+341,Europa,Hombre,Grado,3,2,Mas de dos años,Varias veces por semana,1,3,3,1,0,0,4,4,1,0,2,2,1,"Si, alguna vez",0,0,1,1,1,0,1,1,1,0,1,0,"No, pero me gustaria",1,2
+342,Europa,Mujer,Posgrado,3,5,Mas de dos años,Varias veces al dia,3,2,0,2,0,0,5,5,4,4,5,3,4,"Si, alguna vez",1,1,1,1,0,0,1,0,0,1,1,0,Si,5,5
+343,Europa,Hombre,Grado,4,4,Mas de dos años,Varias veces al dia,3,3,2,4,4,4,4,4,2,3,4,3,2,"Si, alguna vez",0,0,0,0,1,0,1,0,0,1,0,0,Puede,4,4
+344,Europa,Hombre,Profesion,3,4,Mas de dos años,Una vez al dia,5,0,0,5,0,1,3,4,3,2,2,1,1,"Si, alguna vez",1,0,0,0,1,0,1,1,0,0,0,0,"No, y no me gustaria",0,1
+345,Europa,Mujer,Posgrado,4,4,Mas de dos años,Varias veces al dia,5,0,5,4,0,0,0,5,1,2,5,5,4,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,"No, pero me gustaria",4,5
+346,Europa,Mujer,Grado,1,3,Mas de dos años,Varias veces al dia,3,1,3,2,2,2,5,5,4,3,2,2,2,"Si, muy a menudo",1,1,0,1,0,0,0,0,0,1,1,0,"No, y no me gustaria",3,3
+347,Latinoamerica,Mujer,Posgrado,4,4,Mas de dos años,Varias veces al dia,4,2,0,1,0,0,2,4,1,2,4,3,3,"Si, muy a menudo",0,1,0,0,0,0,0,1,0,0,1,0,Puede,3,3
+348,Latinoamerica,Mujer,Profesion,3,4,Mas de dos años,Varias veces al dia,4,4,0,4,1,1,4,4,4,3,5,3,3,"Si, alguna vez",1,1,0,1,1,0,0,0,1,1,1,0,"No, pero me gustaria",3,3
+349,Europa,Hombre,Grado,3,3,Mas de dos años,Varias veces por semana,0,0,4,0,0,0,4,4,0,3,2,2,2,"No, nunca",0,0,0,0,1,0,0,1,1,0,1,0,Puede,1,2
+350,Latinoamerica,Mujer,Profesion,5,2,Mas de dos años,Varias veces al dia,5,4,0,4,3,2,5,5,2,3,4,4,4,"Si, alguna vez",1,0,1,0,1,0,0,0,0,1,1,0,"No, pero me gustaria",4,4
+351,Latinoamerica,Hombre,Grado,3,5,Menos de 6 meses,Una vez al dia,2,4,0,2,4,4,5,5,1,0,3,3,4,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,"No, pero me gustaria",4,4
+352,Europa,Hombre,Profesion,4,2,Mas de dos años,Varias veces por semana,2,2,1,3,1,1,4,5,4,1,3,4,4,"Si, alguna vez",0,0,0,1,1,0,0,1,1,0,0,0,Si,5,4
+353,Europa,Mujer,Posgrado,4,4,Mas de dos años,Varias veces al dia,5,1,0,2,5,2,2,4,3,3,3,2,1,"Si, muy a menudo",0,1,1,1,1,0,1,1,1,1,1,0,Puede,5,4
+354,Latinoamerica,Mujer,Profesion,4,4,Mas de dos años,Varias veces al dia,4,3,3,0,0,0,5,5,5,1,5,4,4,"Si, muy a menudo",1,1,1,1,0,0,0,1,1,0,1,0,"No, pero me gustaria",5,5
+355,Europa,Mujer,Profesion,3,4,Mas de dos años,Varias veces al dia,2,4,0,4,1,1,4,4,4,0,4,1,3,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,0,0,Puede,1,2
+356,Europa,Hombre,Posgrado,3,3,Mas de dos años,Varias veces por semana,0,0,5,0,0,0,5,5,5,4,0,0,0,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,1,1,0,"No, y no me gustaria",3,0
+357,Europa,Hombre,Grado,5,5,Mas de dos años,Varias veces al dia,5,0,0,0,0,0,0,0,0,1,5,1,1,"Si, muy a menudo",0,0,0,0,1,0,1,1,1,1,1,0,"No, y no me gustaria",3,3
+358,Europa,Mujer,Profesion,5,2,Mas de dos años,Varias veces al dia,2,2,0,3,1,1,5,5,4,3,5,4,5,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,1,0,Si,5,5
+359,Europa,Mujer,Posgrado,4,3,Mas de dos años,Varias veces al dia,4,1,2,5,1,3,5,5,5,4,4,3,1,"Si, alguna vez",1,0,0,0,0,0,0,1,0,0,1,0,"No, pero me gustaria",3,2
+360,Europa,Mujer,Interes,4,4,Mas de dos años,Varias veces al dia,4,2,0,5,0,1,1,5,4,2,5,5,4,"Si, alguna vez",0,0,0,0,1,0,0,0,0,0,1,0,Puede,5,5
+361,Europa,Mujer,Posgrado,5,2,Mas de dos años,Varias veces al dia,5,3,0,3,3,3,5,5,4,4,1,1,0,"Si, muy a menudo",1,1,1,1,1,0,1,1,1,1,0,0,Puede,1,1
+362,Europa,Mujer,Interes,2,2,Mas de dos años,Varias veces al dia,5,2,0,5,3,4,5,5,5,2,5,0,2,"Si, alguna vez",1,0,0,0,1,0,0,0,0,1,1,0,"No, y no me gustaria",3,3
+363,Europa,Hombre,Profesion,4,4,Mas de dos años,Varias veces al dia,5,1,0,3,2,1,5,5,2,3,4,3,3,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,0,0,Puede,3,4
+364,Europa,Hombre,Profesion,3,4,Mas de dos años,Varias veces al dia,1,2,0,1,1,1,1,2,1,3,3,2,1,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,0,0,"No, pero me gustaria",3,2
+365,Europa,Mujer,Profesion,2,2,Menos de un año,Una vez al dia,4,1,0,2,0,0,4,5,3,3,3,3,3,"Si, muy a menudo",1,1,1,1,1,0,0,1,0,0,0,0,Puede,2,2
+366,Europa,Hombre,Posgrado,0,3,Mas de dos años,Varias veces al dia,4,1,0,4,2,3,4,4,1,3,2,1,1,"Si, muy a menudo",0,0,1,0,1,0,0,0,0,1,0,0,"No, y no me gustaria",1,3
+367,Europa,Mujer,Posgrado,5,5,Mas de dos años,Varias veces por semana,5,0,2,1,3,3,4,5,2,2,4,4,4,"Si, muy a menudo",1,0,1,0,1,0,1,1,0,1,1,0,"No, pero me gustaria",3,3
+368,Europa,Hombre,Posgrado,1,3,Mas de dos años,Varias veces al dia,0,2,0,2,0,0,4,4,3,0,2,1,1,"Si, alguna vez",0,0,0,0,1,0,0,0,0,0,1,0,"No, y no me gustaria",1,1
+369,Europa,Hombre,Posgrado,4,2,Mas de dos años,Varias veces al dia,3,0,2,3,0,0,2,2,1,3,3,4,2,"Si, alguna vez",0,0,1,0,1,0,1,1,0,1,0,0,"No, y no me gustaria",1,1
+370,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,5,1,3,4,0,2,4,5,2,2,4,3,4,"Si, alguna vez",0,1,0,0,1,0,0,0,0,1,1,0,"No, pero me gustaria",4,3
+371,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,5,0,1,1,0,1,5,5,2,3,4,3,2,"Si, muy a menudo",1,1,0,1,1,0,1,1,1,1,1,0,"No, pero me gustaria",5,5
+372,Europa,Hombre,Profesion,3,3,Mas de dos años,Una vez por semana,5,1,0,2,1,0,0,1,1,0,3,1,1,"Si, alguna vez",0,1,0,0,1,0,1,1,0,0,0,0,"No, y no me gustaria",1,2
+373,Europa,Hombre,Profesion,3,5,Mas de dos años,Una vez al dia,5,2,0,2,1,1,3,3,2,1,3,4,4,"Si, una vez",1,0,1,0,0,0,1,0,0,1,0,0,"No, y no me gustaria",2,1
+374,Otro,Mujer,Interes,0,5,Mas de dos años,Varias veces al dia,5,0,5,0,1,1,2,2,4,1,3,3,3,"Si, alguna vez",0,0,1,0,0,0,1,0,0,0,0,0,"No, pero me gustaria",4,4
+375,Europa,Hombre,Posgrado,3,5,Menos de 6 meses,Una vez al dia,0,4,0,2,1,0,4,5,4,1,4,3,1,"Si, alguna vez",0,0,1,0,0,0,1,1,1,0,0,0,"No, y no me gustaria",5,5
+376,Europa,Mujer,Profesion,4,2,Mas de dos años,Varias veces al dia,5,2,2,5,1,2,5,5,4,2,3,2,1,"Si, alguna vez",1,1,0,0,1,0,1,0,0,0,1,0,"No, y no me gustaria",3,2
+377,Europa,Mujer,Grado,3,5,Mas de dos años,Varias veces al dia,2,1,0,2,0,0,2,2,2,3,4,1,5,"Si, alguna vez",1,1,1,1,1,0,1,1,0,0,1,0,Si,5,0
+378,Europa,Hombre,Grado,3,4,Mas de dos años,Varias veces al dia,5,0,0,1,0,0,1,4,3,1,2,2,4,"Si, muy a menudo",0,0,1,1,1,0,1,1,0,0,1,0,Puede,3,4
+379,Europa,Mujer,Interes,0,5,Mas de dos años,Varias veces por semana,3,3,1,4,1,3,5,5,4,0,4,3,5,"Si, alguna vez",1,0,0,0,1,0,0,0,1,0,1,0,"No, y no me gustaria",5,5
+380,Europa,Mujer,Posgrado,3,4,Mas de dos años,Varias veces al dia,4,2,3,4,0,2,5,5,3,1,5,4,1,"Si, muy a menudo",1,0,0,0,0,0,1,0,0,0,1,0,"No, pero me gustaria",3,5
+381,Europa,Hombre,Profesion,4,3,Mas de dos años,Varias veces al dia,3,5,0,5,3,1,5,5,5,2,5,4,4,"Si, alguna vez",0,1,0,1,0,0,1,0,0,0,1,0,Puede,4,5
+382,Europa,Mujer,Interes,3,3,Mas de dos años,Varias veces al dia,3,3,3,5,3,3,5,5,0,1,3,3,4,"Si, alguna vez",0,1,1,1,0,0,1,0,0,1,1,0,"No, y no me gustaria",3,4
+383,Latinoamerica,Mujer,Grado,5,3,Mas de dos años,Una vez al dia,5,0,0,0,0,0,0,3,0,1,5,4,4,"Si, una vez",0,0,1,0,0,0,1,0,0,0,0,0,Si,3,3
+384,Europa,Mujer,Grado,3,2,Menos de dos años,Varias veces al dia,5,0,1,3,1,1,4,5,0,2,4,4,4,"Si, alguna vez",1,0,0,0,0,0,0,0,0,1,1,0,"No, pero me gustaria",4,5
+385,Europa,Mujer,Posgrado,2,2,Mas de dos años,Varias veces al dia,5,2,4,4,1,0,4,5,2,4,3,2,2,"Si, alguna vez",1,1,1,1,1,0,0,1,1,1,1,0,"No, pero me gustaria",2,3
+386,Europa,Mujer,Grado,1,3,Menos de 6 meses,Varias veces al dia,3,0,0,1,0,0,0,2,1,2,4,4,1,"Si, muy a menudo",1,1,0,0,0,0,0,0,0,0,1,0,"No, pero me gustaria",3,3
+387,Europa,Mujer,Grado,3,4,Mas de dos años,Una vez al dia,4,0,0,1,0,0,5,5,0,3,5,5,5,"Si, muy a menudo",1,1,0,0,0,0,0,0,0,1,1,0,"No, pero me gustaria",5,5
+388,Europa,Hombre,Grado,4,5,Mas de dos años,Varias veces al dia,5,3,0,4,4,3,3,5,3,2,4,4,5,"Si, alguna vez",0,0,0,0,1,0,0,0,1,1,1,0,"No, pero me gustaria",4,3
+389,Latinoamerica,Hombre,Profesion,3,1,Mas de dos años,Varias veces por semana,4,3,1,2,1,1,3,4,2,0,4,3,3,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Puede,4,4
+390,Europa,Mujer,Grado,4,3,Mas de dos años,Varias veces al dia,4,1,0,5,1,2,5,5,5,1,4,1,2,"Si, muy a menudo",0,1,0,0,0,0,0,0,0,1,0,0,"No, y no me gustaria",0,0
+391,Europa,Mujer,Interes,1,2,Mas de dos años,Varias veces al dia,1,3,4,1,0,0,2,5,1,1,4,4,3,"Si, muy a menudo",1,1,0,0,0,0,0,1,0,1,1,0,"No, y no me gustaria",2,3
+392,Europa,Mujer,Posgrado,3,3,Menos de un año,Varias veces al dia,3,0,1,0,0,0,1,1,0,0,2,2,3,"Si, muy a menudo",1,0,0,0,0,0,1,0,0,0,1,0,Puede,1,2
+393,Europa,Mujer,Profesion,4,5,Mas de dos años,Varias veces al dia,5,1,1,4,3,2,4,4,1,2,3,2,2,"Si, alguna vez",0,0,0,0,1,0,0,0,1,1,0,0,"No, y no me gustaria",3,5
+394,Europa,Hombre,Profesion,3,4,Mas de dos años,Varias veces al dia,1,4,0,5,5,1,5,5,4,0,5,3,2,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Puede,5,5
+395,Latinoamerica,Hombre,Profesion,3,4,Mas de dos años,Varias veces al dia,5,4,0,4,3,1,2,2,0,1,4,3,4,"Si, alguna vez",0,0,0,0,1,0,0,0,0,1,0,0,Puede,3,3
+396,Europa,Hombre,Grado,4,2,Menos de 6 meses,Varias veces por semana,4,1,4,4,0,0,2,5,2,1,2,2,1,"Si, alguna vez",1,1,1,1,0,0,1,0,1,0,0,0,"No, pero me gustaria",3,4
+397,Europa,Mujer,Posgrado,3,4,Mas de dos años,Varias veces al dia,5,1,4,4,0,2,4,5,3,2,4,2,2,"Si, alguna vez",0,0,1,1,0,0,1,1,0,0,1,0,"No, y no me gustaria",1,2
+398,Latinoamerica,Hombre,Interes,2,5,Mas de dos años,Varias veces al dia,2,4,5,1,0,0,5,5,2,4,5,2,2,"Si, alguna vez",1,0,1,0,1,0,0,0,1,1,1,0,"No, pero me gustaria",3,4
+399,Europa,Hombre,Posgrado,1,3,Mas de dos años,Una vez al dia,5,1,0,1,1,0,4,5,4,1,4,4,3,"Si, alguna vez",1,0,1,1,0,0,1,0,0,0,0,0,"No, pero me gustaria",3,4
+400,Europa,No binarie,Posgrado,2,1,Mas de dos años,Varias veces al dia,3,2,2,3,1,1,2,2,2,3,3,3,2,"Si, muy a menudo",0,1,0,0,1,0,0,1,0,0,0,0,"No, y no me gustaria",1,1
+401,Europa,Mujer,Posgrado,3,3,Mas de dos años,Varias veces al dia,5,0,3,3,0,1,4,5,2,0,4,5,3,"Si, muy a menudo",1,0,1,1,1,0,0,1,1,1,0,0,Puede,5,4
+402,Europa,Hombre,Profesion,2,4,Mas de dos años,Varias veces al dia,2,4,0,5,3,3,4,5,4,3,4,4,4,"Si, alguna vez",1,0,1,0,1,0,1,0,1,1,0,0,"No, y no me gustaria",0,3
+403,Latinoamerica,Mujer,Grado,4,4,Mas de dos años,Varias veces al dia,4,0,0,3,0,2,5,5,3,5,3,4,5,"Si, muy a menudo",0,0,1,0,0,0,1,0,1,0,0,0,"No, pero me gustaria",4,3
+404,Europa,Hombre,Grado,4,1,Mas de dos años,Varias veces al dia,3,0,0,2,2,2,3,3,1,2,5,4,3,"No, nunca",0,0,0,0,0,1,0,0,0,0,0,1,Puede,5,5
+405,Europa,Mujer,Profesion,4,4,Mas de dos años,Varias veces al dia,3,4,0,4,2,1,5,5,5,1,3,4,3,"Si, alguna vez",0,0,0,1,1,0,1,0,1,0,1,0,Puede,3,3
+406,Europa,Mujer,Grado,4,2,Mas de dos años,Varias veces al dia,5,3,2,5,0,0,5,5,2,4,4,4,3,"Si, alguna vez",1,1,1,1,1,0,0,1,0,1,1,0,"No, pero me gustaria",5,5
+407,Latinoamerica,Hombre,Grado,4,3,Mas de dos años,Varias veces al dia,5,1,0,5,0,2,5,5,2,4,3,2,2,"Si, muy a menudo",1,1,1,1,0,0,0,1,1,1,1,0,"No, pero me gustaria",4,4
+408,Europa,Mujer,Grado,4,3,Menos de 6 meses,Varias veces al dia,1,1,4,1,0,0,1,3,1,2,3,3,2,"Si, alguna vez",0,0,1,1,0,0,0,1,0,0,0,0,"No, pero me gustaria",3,2
+409,Europa,Mujer,Posgrado,3,4,Mas de dos años,Varias veces al dia,5,0,0,5,0,0,4,5,4,3,3,5,4,"Si, alguna vez",0,0,1,0,1,0,1,0,1,1,1,0,Puede,4,5
+410,Europa,Mujer,Grado,3,3,Mas de dos años,Varias veces al dia,4,0,5,5,0,0,5,5,2,1,3,1,1,"Si, muy a menudo",1,1,0,1,1,0,0,1,0,1,1,0,"No, y no me gustaria",0,2
+411,Europa,Mujer,Profesion,4,5,Mas de dos años,Varias veces al dia,5,0,0,0,5,5,5,5,5,1,3,2,0,"Si, alguna vez",0,0,0,1,1,0,0,0,1,0,1,0,Puede,2,3
+412,Europa,Mujer,Posgrado,4,3,Mas de dos años,Varias veces al dia,5,1,0,4,1,2,5,5,1,2,4,4,3,"Si, alguna vez",1,1,1,1,0,0,0,1,0,1,1,0,"No, pero me gustaria",5,4
+413,Europa,Mujer,Profesion,4,2,Mas de dos años,Varias veces al dia,5,0,5,5,1,1,5,5,1,4,3,3,3,"Si, alguna vez",1,1,0,0,1,0,0,0,0,1,1,0,Si,4,5
+414,Europa,Mujer,Posgrado,4,2,Mas de dos años,Varias veces al dia,5,0,5,0,0,0,4,5,0,3,4,4,2,"Si, alguna vez",1,0,0,0,0,0,0,1,0,0,1,0,"No, pero me gustaria",4,4
+415,Europa,Mujer,Grado,4,5,Mas de dos años,Varias veces al dia,5,2,0,5,5,5,5,5,5,3,4,4,4,"Si, alguna vez",0,0,1,0,0,0,1,0,0,0,0,0,"No, pero me gustaria",5,5
+416,Europa,Hombre,Profesion,0,5,Mas de dos años,Varias veces al dia,5,1,0,1,1,1,4,4,1,0,4,4,4,"Si, una vez",0,0,0,0,1,0,0,0,1,0,0,0,"No, y no me gustaria",2,4
+417,Europa,Mujer,Grado,2,4,Mas de dos años,Varias veces al dia,5,0,0,3,0,0,2,5,3,3,5,4,4,"Si, alguna vez",1,0,0,0,0,0,0,0,0,1,0,0,"No, pero me gustaria",4,4
