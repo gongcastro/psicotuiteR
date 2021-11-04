@@ -7,12 +7,12 @@
 #' @format Un dataset con 417 filas y 37 variables
 #' \describe{
 #'   \item{id}{Identificador de la respuesta}
-#'   \item{lugar}{¿Desde dónde tuiteas normalmente? 1) España (o Europa), 2) Latinoamérica y Centroamérica, 3) Otro}
+#'   \item{lugar}{¿Desde dónde tuiteas normalmente? 1) Espa&#241;a (o Europa), 2) Latinoamérica y Centroamérica, 3) Otro}
 #'   \item{genero}{¿Cuál es tu género? 1) Mujer, 2) Hombre, 3) Persona no binaria, 4) Otro}
 #'   \item{psico1}{¿Cuál es tu relación con la Psicología? 1) Interés, 2) Grado, 3) Posgrado, 4) Profesión}
 #'   \item{psico2}{¿En qué medida te identificas con una corriente concreta en Psicología? Escala Likert 0 (Nada) - 5 (Completamente)}
 #'   \item{psico3}{¿Cómo te sientes al interactuar con personas con ideas distintas a las tuyas sobre Psicología? Escala Likert 0 (Muy a disgusto) - 5 (Muy a gusto)}
-#'   \item{tw1}{¿Cuánto tiempo llevas en Twitter? 1) Menos de 6 meses, 2) Menos de un año, 3) Menos de dos años, 4) Más de dos años}
+#'   \item{tw1}{¿Cuánto tiempo llevas en Twitter? 1) Menos de 6 meses, 2) Menos de un a&ntilde;o, 3) Menos de dos a&ntilde;os, 4) Más de dos a&ntilde;os}
 #'   \item{tw2}{¿Con cuánta frecuencia usas Twitter? Aunque solo sea entrar a leer, no es necesario interactuar. 1) Casi nunca, 2) Una vez a la semana, 3) Varias veces a la semana, 4) Una vez al día, 5) Varias veces al día}
 #'   \item{tw_pers}{¿En qué medida tu cuenta es personal? Escala Likert 0 (Nada) - 5 (Completamente)}
 #'   \item{tw_divulg}{¿En qué medida tu cuenta es divulgativa? Escala Likert 0 (Nada) - 5 (Completamente)}
