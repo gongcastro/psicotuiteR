@@ -45,5 +45,5 @@ Una vez instalado del paquete, puedes cargar los datos de la encuesta sobre el c
 data("clima")
 ```
 
-Y puede consultar la documentación sobre los datos con `?clima`.
+También puedes consultar la documentación sobre los datos (qué significa cada ítem) con `?clima`.
 
