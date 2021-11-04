@@ -18,11 +18,14 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![CRAN status](https://www.r-pkg.org/badges/version/psicotwitteR)](https://CRAN.R-project.org/package=psicotwitteR)
-[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/psicotwitteR.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/psicotwitteR)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/gongcastro/psicotwitteR?branch=master&svg=true)](https://ci.appveyor.com/project/gongcastro/psicotwitteR)
-[![Launch binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gongcastro/psicotwitteR/master)
 [![Codecov test coverage](https://codecov.io/gh/gongcastro/psicotwitteR/branch/master/graph/badge.svg)](https://codecov.io/gh/gongcastro/psicotwitteR?branch=master)
 [![R-CMD-check](https://github.com/gongcastro/psicotwitteR/workflows/R-CMD-check/badge.svg)](https://github.com/gongcastro/psicotwitteR/actions)
+![GitHub top language](https://img.shields.io/github/languages/top/gongcastro/psicotwitteR)
+![GitHub repo size](https://img.shields.io/github/repo-size/gongcastro/psicotwitteR)
+![GitHub issues](https://img.shields.io/github/issues/gongcastro/psicotwitteR)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/gongcastro/psicotwitteR)
+![GitHub contributors](https://img.shields.io/github/contributors/gongcastro/psicotwitteR)
+![GitHub last commit](https://img.shields.io/github/last-commit/gongcastro/psicotwitteR)
 <!-- badges: end -->
 
 Este es un paquete de R para la comunidad de Psicotwitter. Puedes consultar la documentación en la [página web](https://gongcastro.github.io/psicotwitteR/).
