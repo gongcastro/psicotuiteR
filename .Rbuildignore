@@ -13,3 +13,5 @@
 ^codecov\.yml$
 ^_config.yml$
 ^.here$
+^\.circleci$
+^\.circleci/config\.yml$

@@ -27,6 +27,7 @@ knitr::opts_chunk$set(
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/gongcastro/psicotuiteR)
 ![GitHub contributors](https://img.shields.io/github/contributors/gongcastro/psicotuiteR)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gongcastro/psicotuiteR)
+[![CircleCI build status](https://circleci.com/gh/gongcastro/psicotuiteR.svg?style=svg)](https://circleci.com/gh/gongcastro/psicotuiteR)
 <!-- badges: end -->
 
 Este es un paquete de R para la comunidad de psicotuiteR. Puedes consultar la documentación en la [página web](https://gongcastro.github.io/psicotuiteR/).
