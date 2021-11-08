@@ -9,6 +9,7 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/psicotuiteR)](https://CRAN.R-project.org/package=psicotuiteR)
+![CircleCI](https://img.shields.io/circleci/build/github/gongcastro/psicotuiteR)
 [![Codecov test
 coverage](https://codecov.io/gh/gongcastro/psicotuiteR/branch/master/graph/badge.svg)](https://codecov.io/gh/gongcastro/psicotuiteR?branch=master)
 [![R-CMD-check](https://github.com/gongcastro/psicotuiteR/workflows/R-CMD-check/badge.svg)](https://github.com/gongcastro/psicotuiteR/actions)
