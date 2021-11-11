@@ -1,5 +1,5 @@
-Package: psicotwitteR
-Title: Un paquete de R para la comunidad de Psicotwitter
+Package: psicotuiteR
+Title: Un paquete de R para la comunidad de Psicotuiter
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Gonzalo",
@@ -12,7 +12,7 @@ Authors@R:
              email = "aliciafrancomartinez96@gmail.com",
              comment = c(ORCID = "0000-0002-9710-1240"),
              role = c("aut")))
-Description: Un paquete de R para la comunidad de Psicotwitter.
+Description: Un paquete de R para la comunidad de Psicotuiter.
 License: MIT + file LICENSE
 Suggests: 
     covr,
@@ -32,9 +32,11 @@ Imports:
     ggplot2,
     patchwork,
     dplyr,
-    magrittr
+    magrittr,
+    fs,
+    data.tree
 Depends: 
     R (>= 2.10)
 VignetteBuilder: knitr
-URL: https://gongcastro.github.io/psicotwitteR/
-BugReports: https://github.com/gongcastro/psicotwitteR/issues
+URL: https://gongcastro.github.io/psicotuiter/
+BugReports: https://github.com/gongcastro/psicotuiter/issues
