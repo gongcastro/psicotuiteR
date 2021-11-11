@@ -5,5 +5,8 @@
 .DS_Store
 inst/doc
 docs
+<<<<<<< HEAD
 /doc/
 /Meta/
+=======
+>>>>>>> e9658e7a254bdaa4f8303a110cceade05ca336c0

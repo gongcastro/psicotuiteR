@@ -44,7 +44,7 @@
 #'   \item{psico_tw2}{¿Qué te parece el término "Psicotwitter"? Escala Likert 0 (No me gusta nada) - 5 (Me encanta)}
 #'   \item{psico_tw3}{¿Crees que el término "Psicotwitter" (en tu experiencia personal) es más negativo o más positivo? Escala Likert 0 (Completamente negativo) - 5 (Completamente positivo}
 #' }
-#' @source \url{http://www.diamondse.info/}
+#' @source \url{https://twitter.com/AliciaFrancoXVE/status/1352342172750786560?s=20}
 #' @examples
 #' data("clima")
 #' @encoding UTF-8

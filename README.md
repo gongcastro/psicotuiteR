@@ -1,38 +1,44 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# psicotwitteR <a href='https://gongcastro.github.io/psicotwitteR'><img src='man/figures/logo.png' align="right" height="139" /></a>
+Este es un paquete de R para la comunidad de Psicotwitter. Puedes
+consultar la documentación en la [página
+web](https://gongcastro.github.io/psicotwitteR/).
+
+# psicotuiteR <img src='man/figures/logo.png' align="right" height="139" />
 
 <!-- badges: start -->
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![CRAN
-status](https://www.r-pkg.org/badges/version/psicotwitteR)](https://CRAN.R-project.org/package=psicotwitteR)
+status](https://www.r-pkg.org/badges/version/psicotuiteR)](https://CRAN.R-project.org/package=psicotuiteR)
 [![Codecov test
-coverage](https://codecov.io/gh/gongcastro/psicotwitteR/branch/master/graph/badge.svg)](https://codecov.io/gh/gongcastro/psicotwitteR?branch=master)
-[![R-CMD-check](https://github.com/gongcastro/psicotwitteR/workflows/R-CMD-check/badge.svg)](https://github.com/gongcastro/psicotwitteR/actions)
+coverage](https://codecov.io/gh/gongcastro/psicotuiteR/branch/master/graph/badge.svg)](https://codecov.io/gh/gongcastro/psicotuiteR?branch=master)
+[![R-CMD-check](https://github.com/gongcastro/psicotuiteR/workflows/R-CMD-check/badge.svg)](https://github.com/gongcastro/psicotuiteR/actions)
 ![GitHub top
-language](https://img.shields.io/github/languages/top/gongcastro/psicotwitteR)
+language](https://img.shields.io/github/languages/top/gongcastro/psicotuiteR)
 ![GitHub repo
-size](https://img.shields.io/github/repo-size/gongcastro/psicotwitteR)
+size](https://img.shields.io/github/repo-size/gongcastro/psicotuiteR)
 ![GitHub
-issues](https://img.shields.io/github/issues/gongcastro/psicotwitteR)
+issues](https://img.shields.io/github/issues/gongcastro/psicotuiteR)
 ![GitHub pull
-requests](https://img.shields.io/github/issues-pr/gongcastro/psicotwitteR)
+requests](https://img.shields.io/github/issues-pr/gongcastro/psicotuiteR)
 ![GitHub
-contributors](https://img.shields.io/github/contributors/gongcastro/psicotwitteR)
+contributors](https://img.shields.io/github/contributors/gongcastro/psicotuiteR)
 ![GitHub last
-commit](https://img.shields.io/github/last-commit/gongcastro/psicotwitteR)
+commit](https://img.shields.io/github/last-commit/gongcastro/psicotuiteR)
+[![CircleCI build
+status](https://circleci.com/gh/gongcastro/psicotuiteR.svg?style=svg)](https://circleci.com/gh/gongcastro/psicotuiteR)
 <!-- badges: end -->
 
-Este es un paquete de R para la comunidad de Psicotwitter. Puedes
+Este es un paquete de R para la comunidad de psicotuiteR. Puedes
 consultar la documentación en la [página
-web](https://gongcastro.github.io/psicotwitteR/).
+web](https://gongcastro.github.io/psicotuiteR/).
 
 ## Instalación
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("gongcastro/psicotwitteR")
+devtools::install_github("gongcastro/psicotuiteR")
 ```
