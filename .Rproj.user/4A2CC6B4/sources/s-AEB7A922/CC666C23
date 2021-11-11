@@ -1,0 +1,27 @@
+{
+    "id": "CC666C23",
+    "path": "~/psicotuiteR/vignettes/creando-psicotuiteR.Rmd",
+    "project_path": "vignettes/creando-psicotuiteR.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1636056461411.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "271,351",
+        "scrollLine": "261",
+        "last_setup_crc32": "AEB7A922120fa331"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1636642616,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1636642616609,
+    "read_only": false,
+    "read_only_alternatives": []
+}

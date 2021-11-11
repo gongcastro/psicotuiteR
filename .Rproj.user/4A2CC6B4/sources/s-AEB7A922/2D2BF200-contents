@@ -1,0 +1,90 @@
+---
+title: "Creando psicotuiteR: Parte 2"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Creando {psicotuiteR}: Parte 2}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(psicotuiteR)
+```
+
+
+### CRAN y `check()`
+
+
+
+### Otros
+
+#### Test automatizados con GitHub actions
+
+`use_github_actions()`
+`use_github_action_check_full()`
+
+#### Code coverage
+
+
+## Dejando el paquete guapo con {pkgdown}
+
+```r
+install.packages("pkgdown")`
+```
+
+### {pkgdown}: `use_pkgdown()`, `build_site()`, `use_github_pages()` y `use_github_links()`
+
+```r
+use_pkgdown()
+use_github_pages()
+use_github_links()
+```
+
+### Creando un logo con `use_log()` y Hexmaker
+
+```r
+use_logo()
+```
+
+
+### `README`: `use_readme_md()`, `use_readme_rmd()` y `build_readme()`
+
+```r
+use_readme_md()
+use_reamde_rmd()
+build_readme()
+```
+
+### Placas: `use_lifecycle()`, `use_badge()` y badges.com
+
+```r
+use_lifecycle()
+use_cran_badge()
+```
+
+### News con `use_news()`
+
+```r
+use_news()
+```
+
+### Referencias en la documentación
+
+### Licencias: `use_*_license()`
+
+```r
+use_cc0_license()
+```
+
+### Referencia: `use_citation()`
+
+```r
+use_citation()
+```

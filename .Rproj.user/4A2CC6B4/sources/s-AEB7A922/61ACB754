@@ -1,0 +1,26 @@
+{
+    "id": "61ACB754",
+    "path": "~/psicotuiteR/R/clima.R",
+    "project_path": "R/clima.R",
+    "type": "r_source",
+    "hash": "1201710534",
+    "contents": "",
+    "dirty": false,
+    "created": 1636643138995.0,
+    "source_on_save": false,
+    "relative_order": 11,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "45,4",
+        "scrollLine": "9"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1636643155,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1636643155934,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,45 @@
+use_vignette()
+use_vignette(name = "creando-psicotuiteR-2", "Creando {psicotuiteR}: Parte 2")
+build_site()
+build_site()
+knitr::opts_chunk$set(
+message = FALSE,
+warning = FALSE,
+include = TRUE
+)
+library(psicotuiteR)
+path <- c(
+".gitignore",
+".Rbuildignore",
+"DESCRIPTION",
+"NAMESPACE",
+"psicotuiteR.Rproj",
+"R/"
+)
+x <- data.frame(dir = ".", path = path)
+x$pathString <- apply(x, 1, function(x) paste(trimws(na.omit(x)), collapse = "/"))
+tree <- data.tree::as.Node(x)
+names(tree) <- NULL
+tree
+path <- c(
+".gitignore",
+".Rbuildignore",
+"DESCRIPTION",
+"NAMESPACE",
+"psicotuiteR.Rproj",
+"R/",
+"R/print_name.R"
+)
+x <- data.frame(dir = ".", path = path)
+x$pathString <- apply(x, 1, function(x) paste(trimws(na.omit(x)), collapse = "/"))
+tree <- data.tree::as.Node(x)
+names(tree) <- NULL
+tree
+build_site()
+build_site()
+build_site()
+build_readme()
+build_site()
+build_site()
+build_site()
+build_site()

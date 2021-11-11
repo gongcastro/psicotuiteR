@@ -1,0 +1,230 @@
+---
+author: "Gonzalo García-Castro"
+date: "9/2/2021"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# ¿Qué es un paquete de R?
+
+* Al programar, debemos evitar la repetición de código.
+* Estructurar el código de forma jerárquica
+1. Comando
+2. Script
+3. Función
+4. Paquete
+* Paquete: conjunto de funciones que realizan tareas diferentes pero relacionadas
+
+
+# ¿Cuándo es buena idea hacer un paquete de R?
+
+Generalmente hacemos un pqeute de R partiendo un script o grupo de funciones que, por razones de eficiencia o reproducibilidad, queremos agrupar, documentar y facilitar su instalación.
+
+
+# Inicio
+
+## ¿Qué necesito para hacer un paquete de R?
+
+
+{usethis}
+
+usethis tiene muchísimas funciones muy útiles que empiezan por `use_*`. ¡Explóralas!
+
+```r
+install.packages(devtools)
+install.packages(usethis)
+
+library(usethis)
+use_usethis()
+use_devtools()
+```
+
+## .Rprofile
+
+# Primeros pasos
+
+## Creando un proyecto de RStudio
+
+![](img/new_package.png)
+![](img/package.png)
+![](img/package_settings.png)
+
+## Creando un paquete de R
+
+```r
+library(usethis)
+
+create_package(path = "comidistar2") # abre nueva ventana
+```
+
+
+También es posible hacerlo usando RStudio (haciendo clicks).
+
+
+# Explorando el repositorio del proyecto
+
+## Información del paquete: DESCRIPTION
+
+## Dependencias y otras pesadillas: NAMESPACE
+
+## Scripts de R en R/
+
+
+# Funciones en R y R/
+
+```r
+#' Print author
+#' @export print_name
+#' @usage print_author()
+#' @import dplyr
+#' @importFrom tidyr drop_na
+#' @description Print the name of the author of the package we are developing
+#' @param author Name of the package author
+#' @author Gonzalo Garcia-Castro
+print_name <- function(
+    author = "Gon"
+){
+    print(author)
+}
+```
+
+
+# Documentación:
+
+## Documentando las funciones y datos con roxygen2 y document()
+
+```r
+library(devtools)
+
+document()
+```
+
+## Viñetas y artículos con use_vignette() y use_article()
+
+
+# Dependencias y otras pesadillas: Parte 2
+
+* Es probable que nuestro paquete use funciones de otros paquetes.
+* Debemos indicar qué funciones es necesario importar para hacer funcionar nuestro paquete
+* El archivo NAMESPACE contiene esa información. La función `devtools::document()` gestiona NAMESPACE por nosotros
+* Aun así, debemos indicar las dependencias de paquetes en DESCRIPTION. `usethis::use_package()` lo hace por nosotros (ej. `use_package("dplyr")`)
+
+NOTA: cuantas menos dependencias, menor probabilidad de nuestro paquete se rompa cuando algún otro paquete se actualiza (CRAN pone un límite de dependencias).
+
+
+## NAMESPACE, @importFrom y use_package()
+
+## Usando dplyr y use_pipe()
+
+
+# Datos internos, datos externos, datos brutos
+
+## Datos internos y externos con use_data(), data/
+
+Se guardan como objetos de R (.rds).
+
+* Objeto de R visible: `usethis::use_data(x, internal = FALSE)`, donde `x` es una variable de R (vector, data.frame, list, etc.). Será accesible mediante el operador `::` (ej.,  `elcomidistar::cataaciegas`). Requiere documentación (ver abajo). Se guarda como RDS en la carpeta R/ con el nombre del objeto.
+* Objeto de R interno: `usethis::use_data(x, internal = TRUE)`, donde `x` es una variable de R (vector, data.frame, list, etc.). Será accesible mediante el operador `:::` (ej., `elcomidistar::cataaciegas`). Se guarda como `sysdata.rds` en la carpeta R/.
+
+## Datos brutos con use_data_raw() y data_raw/
+
+Archivo *bruto*: TXT, CSV, XLSX, etc. en `inst/`. Al instalar el paquete, los archivos y caeprtas se mueven a la carpeta principal.
+
+# Archivos externos y la carpeta inst/
+
+A veces necesitamos incluir archivos externos en nuestro paquete: datos, scripts de C++, Python, imágenes, etc.
+    
+Scripts de otras lenguas de programación (Python, Stan, etc...).
+
+
+# Manteniendo y compartiendo el paquete
+
+## Git y GitHub
+
+## testthat y test()
+
+## CRAN y check()
+
+## Test automatizados con GitHub actions
+
+## Code coverage
+
+
+# Dejando el paquete guapo y extendiendo la documentación
+
+## Logo con use_log() y Hexmaker
+
+## pkgdown: use_pkgdoown, build_site(), use_github_pages() y use_github_links()
+
+## README: use_read_md(), use_readme_rmd() y build_readme()
+
+## Placas: use_lifecycle(), use_badge() y badges.com
+
+## News con use_news()
+
+## Referencias en la documentación
+
+
+# Más posibilidades
+
+## Licencias: use_*_license()
+
+## Referencia: use_citation()
+
+
+
+
+
+## DESCRIPTION
+
+![](img/description.png)
+
+## Git/GitHub
+
+# Carpeta R  y paquete roxygen2: Funciones y documentación
+
+Vamos a crear nuestra función:
+
+
+```r
+#' Importar datos de El Comidista
+#' @importFrom dplyr group_by
+#' @importFrom dplyr summarise
+#' @param data Un data frame con al menos una columna tipo "character" identificando el tipo de producto (llamada "producto"), y una columna tipo "numeric" con la puntuación asignada a cada producto (llamada "puntuacion")
+#' @param producto Vector de tipo "character" indicando los tipos de producto para los que se quiere
+#' obtener estadísticos descriptivos.
+#' @returns Data frame con los estadísticos descriptivos de los datos de El Comidista
+#' @examples
+#' comidista_agregar_datos(mtcars, producto = "leche")
+comidista_agregar_datos <- function(
+  data,
+  producto = NULL
+){
+  x <- group_by(data, producto)
+  if (!is.null(producto)) x <- filter(x, producto %in% producto)
+  x <- summarise(
+    data,
+    puntuacion_media = mean(puntuacion, na.rm = TRUE),
+    puntuacion_sd = sd(puntuacion, na.rm = TRUE)
+  )
+  return(x)
+}
+```
+
+
+
+# Directorios
+
+# Tests: `testhat::test()` y `devtools::check()`
+
+# Publicación
+
+## pkgdown
+
+## CRAN y otros
+
+
+
