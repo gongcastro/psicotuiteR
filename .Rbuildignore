@@ -12,3 +12,5 @@
 ^CODE_OF_CONDUCT\.md$
 ^codecov\.yml$
 ^_config.yml$
+^doc$
+^Meta$
