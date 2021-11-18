@@ -1,5 +1,5 @@
 ---
-title: "Creando psicotuiteR: Parte 2"
+title: "Creando {psicotuiteR}: Parte 2"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Creando {psicotuiteR}: Parte 2}

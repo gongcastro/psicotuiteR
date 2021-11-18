@@ -3,7 +3,7 @@ title: "Creando psicotuiteR: Parte 1"
 output: rmarkdown::html_vignette
 author: Gonzalo Garcia-Castro (@gongcastro)
 vignette: >
-  %\VignetteIndexEntry{Creando {psicotuiteR}}
+  %\VignetteIndexEntry{Creando {psicotuiteR}: Parte 1}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -366,11 +366,7 @@ GitHub es una red social que permite almacenar y compartir repositorios mediante
 
 Git y GitHub cumplen una función muy especial para quienes hacemos un paquete en R: la función `install_github`, del paquete {devtools}^[Más que un paquete de R, `devtools` es una collección de funciones de otros paquetes que han sido agrupadas por su utilidad a la hora de desarrollar paquetes ("devtools" es la abreviatura de *developer tools*). La función `install_github` pertenece, originalmente, al paquete {remotes}], permite instalar un paquete sin necesidad de que esté publicado en CRAN. Hablaremos más adelante de CRAN, pero por ahora nos interesa saber que podemos compartir cualquier paquete a través de GitHub usando `install_github`, pero para poder instalarlo usando `install.packages`, como normalmente hacemos, ese paquete necesita estar publicado en CRAN. Publicar en CRAN requiere un proceso de revisión que en ocasiones es díficil solventar (y a veces innecesario). Para compartir nuestro paquete sin necesidad de pasar por ese calvario, lo haremos a través de GitHub.
 
-Para hacerlo, primero debemos crear un usuario de GitHub, crear un nuevo repositorio, hacer click en el botón verde que dice "Code", y copiar el enlace que aparece.
-
-![](img/github_code.png)
-
-En nuestra sesión de R, ejecutamos las siguientes líneas de código:
+Para hacerlo, primero debemos crear un usuario de GitHub, crear un nuevo repositorio, hacer click en el botón verde que dice "Code", y copiar el enlace que aparece. En nuestra sesión de R, ejecutamos las siguientes líneas de código:
 
 ```r
 use_git() # esta línea inicializa Git en el repositorio
