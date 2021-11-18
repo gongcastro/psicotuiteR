@@ -61,7 +61,7 @@
   </a>
   <ul class="dropdown-menu" role="menu">
 <li>
-      <a href="../articles/creando-psicotuiteR-2.html">Creando psicotuiteR: Parte 2</a>
+      <a href="../articles/creando-psicotuiteR-2.html">Creando {psicotuiteR}: Parte 2</a>
     </li>
     <li>
       <a href="../articles/creando-psicotuiteR.html">Creando psicotuiteR: Parte 1</a>
@@ -370,9 +370,7 @@
 <p>Un paquete de R puede volverse complejo en seguida: scripts con muchas funciones, funciones que dependen de otras funciones, funciones dependen de funciones de otros paquetes… Es fácil liarla. Git es una buena herramienta para controlar cómo va cambiando el paquete. Te permite llevar la cuenta de cómo ha cambiado cada archivo dentro del paquete, poder volver a una versión específica del mismo archivo, o tener diferentes versiones del mismo paquete funcionando a la vez de forma independiente. Este último punto es especialmente útil si queremos “jugar” con una versión de prueba del paquete mientras otras personas se pueden descargar una versión estable del mismo.</p>
 <p>GitHub es una red social que permite almacenar y compartir repositorios mediante control de versiones en Git<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a>. Varias personas pueden acceder al repositorio (un paquete de R, en nuestro caso) y sugerir cambios como si estuvieran trabajando sobre dicho paquete en un sólo ordenador. El mejor manual que conozco (y también el más accesible) para aprender a usar Git y GitHub (especialmente para quien ya trabaja en R) es <a href="https://happygitwithr.com/index.html"><em>Happy Git and GitHub for the useR</em></a>, de Jenny Bryan. Aprender git no siempre es fácil pero siempre merece la pena<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a>.</p>
 <p>Git y GitHub cumplen una función muy especial para quienes hacemos un paquete en R: la función <code>install_github</code>, del paquete {devtools}<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a>, permite instalar un paquete sin necesidad de que esté publicado en CRAN. Hablaremos más adelante de CRAN, pero por ahora nos interesa saber que podemos compartir cualquier paquete a través de GitHub usando <code>install_github</code>, pero para poder instalarlo usando <code>install.packages</code>, como normalmente hacemos, ese paquete necesita estar publicado en CRAN. Publicar en CRAN requiere un proceso de revisión que en ocasiones es díficil solventar (y a veces innecesario). Para compartir nuestro paquete sin necesidad de pasar por ese calvario, lo haremos a través de GitHub.</p>
-<p>Para hacerlo, primero debemos crear un usuario de GitHub, crear un nuevo repositorio, hacer click en el botón verde que dice “Code”, y copiar el enlace que aparece.</p>
-<p><img src="img/github_code.png"></p>
-<p>En nuestra sesión de R, ejecutamos las siguientes líneas de código:</p>
+<p>Para hacerlo, primero debemos crear un usuario de GitHub, crear un nuevo repositorio, hacer click en el botón verde que dice “Code”, y copiar el enlace que aparece. En nuestra sesión de R, ejecutamos las siguientes líneas de código:</p>
 <div class="sourceCode" id="cb24"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">use_git</span><span class="op">(</span><span class="op">)</span> <span class="co"># esta línea inicializa Git en el repositorio</span>
 <span class="fu">use_git_remote</span><span class="op">(</span>name <span class="op">=</span> <span class="st">"origin"</span>, url <span class="op">=</span> <span class="st">"https://github.com/gongcastro/psicotuiteR.git"</span><span class="op">)</span> <span class="co"># sustituye ese link por el que hayas copiado de GitHub</span>
