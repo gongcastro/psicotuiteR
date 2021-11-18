@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Respuestas a la encuesta de Psicotwitter — clima • psicotuiteR</title>
+<title>Plotear variable — muestrame • psicotuiteR</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,9 +46,8 @@
 
 
 
-<meta property="og:title" content="Respuestas a la encuesta de Psicotwitter — clima" />
-<meta property="og:description" content="Cada fila es una respuesta por parte de una persona a la encuesta realizada por
-Alicia Franco (@AliciaFrancoXVE) en 2021." />
+<meta property="og:title" content="Plotear variable — muestrame" />
+<meta property="og:description" content="Muestra un gráfico de barras para la variable seleccionada." />
 <meta property="og:image" content="https://gongcastro.github.io/psicotuiteR/logo.png" />
 
 
@@ -135,71 +134,48 @@ Alicia Franco (@AliciaFrancoXVE) en 2021." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Respuestas a la encuesta de Psicotwitter</h1>
-    <small class="dont-index">Source: <a href='https://github.com/gongcastro/psicotuiter/blob/master/R/clima.R'><code>R/clima.R</code></a></small>
-    <div class="hidden name"><code>clima.Rd</code></div>
+    <h1>Plotear variable</h1>
+    <small class="dont-index">Source: <a href='https://github.com/gongcastro/psicotuiter/blob/master/R/ali.R'><code>R/ali.R</code></a></small>
+    <div class="hidden name"><code>muestrame.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Cada fila es una respuesta por parte de una persona a la encuesta realizada por
-Alicia Franco (@AliciaFrancoXVE) en 2021.</p>
+    <p>Muestra un gráfico de barras para la variable seleccionada.</p>
     </div>
 
-    <pre class="usage"><span class='va'>clima</span></pre>
+    <pre class="usage"><span class='fu'>muestrame</span><span class='op'>(</span><span class='va'>variable</span>, titulo <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/names.html'>names</a></span><span class='op'>(</span><span class='va'>variable</span><span class='op'>)</span>, etiqueta_x <span class='op'>=</span> <span class='st'>""</span><span class='op'>)</span></pre>
 
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>variable</th>
+      <td><p>La variable que quieras plottear</p></td>
+    </tr>
+    <tr>
+      <th>titulo</th>
+      <td><p>cadena de caracteres para el título de la gráfica</p></td>
+    </tr>
+    <tr>
+      <th>etiqueta_x</th>
+      <td><p>cadena de caracteres para la etiqueta del eje X</p></td>
+    </tr>
+    </table>
 
-    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>Un dataset con 417 filas y 37 variables</p><dl>
-<dt>id</dt><dd><p>Identificador de la respuesta</p></dd>
-<dt>lugar</dt><dd><p>¿Desde dónde tuiteas normalmente? 1) España (o Europa), 2) Latinoamérica y Centroamérica, 3) Otro</p></dd>
-<dt>genero</dt><dd><p>¿Cuál es tu género? 1) Mujer, 2) Hombre, 3) Persona no binaria, 4) Otro</p></dd>
-<dt>psico1</dt><dd><p>¿Cuál es tu relación con la Psicología? 1) Interés, 2) Grado, 3) Posgrado, 4) Profesión</p></dd>
-<dt>psico2</dt><dd><p>¿En qué medida te identificas con una corriente concreta en Psicología? Escala Likert 0 (Nada) - 5 (Completamente)</p></dd>
-<dt>psico3</dt><dd><p>¿Cómo te sientes al interactuar con personas con ideas distintas a las tuyas sobre Psicología? Escala Likert 0 (Muy a disgusto) - 5 (Muy a gusto)</p></dd>
-<dt>tw1</dt><dd><p>¿Cuánto tiempo llevas en Twitter? 1) Menos de 6 meses, 2) Menos de un año, 3) Menos de dos años, 4) Más de dos años</p></dd>
-<dt>tw2</dt><dd><p>¿Con cuánta frecuencia usas Twitter? Aunque solo sea entrar a leer, no es necesario interactuar. 1) Casi nunca, 2) Una vez a la semana, 3) Varias veces a la semana, 4) Una vez al día, 5) Varias veces al día</p></dd>
-<dt>tw_pers</dt><dd><p>¿En qué medida tu cuenta es personal? Escala Likert 0 (Nada) - 5 (Completamente)</p></dd>
-<dt>tw_divulg</dt><dd><p>¿En qué medida tu cuenta es divulgativa? Escala Likert 0 (Nada) - 5 (Completamente)</p></dd>
-<dt>tw_anonim</dt><dd><p>¿En qué medida tu cuenta es anónima? Escala Likert 0 (Nada) - 5 (Completamente)</p></dd>
-<dt>tw_tuits</dt><dd><p>¿Con qué frecuencia interactúas en Twitter con tuits individuales? Escala Likert 0 (Nunca) - 5 (A diario)</p></dd>
-<dt>tw_hilos_div</dt><dd><p>¿Con qué frecuencia interactúas en Twitter con tuits individuales? Escala Likert 0 (Nunca) - 5 (A diario)</p></dd>
-<dt>tw_hilos_ot</dt><dd><p>¿Con qué frecuencia interactúas en Twitter con otro tipo de hilos? Escala Likert 0 (Nunca) - 5 (A diario)</p></dd>
-<dt>tw_rt</dt><dd><p>¿Con qué frecuencia interactúas en Twitter con retuits? Escala Likert 0 (Nunca) - 5 (A diario)</p></dd>
-<dt>tw_like</dt><dd><p>¿Con qué frecuencia interactúas en Twitter con likes? Escala Likert 0 (Nunca) - 5 (A diario)</p></dd>
-<dt>tw_resp</dt><dd><p>¿Con qué frecuencia interactúas en Twitter con respuestas a tuits de otras cuentas? Escala Likert 0 (Nunca) - 5 (A diario)</p></dd>
-<dt>exp_tw1</dt><dd><p>¿En qué medida crees que tu vida diaria está influenciada por lo que sucede en Twitter? Escala Likert 0 (Nada influenciada) - 5 (Completamente influenciada)</p></dd>
-<dt>exp_tw2</dt><dd><p>¿Cómo te sientes en general en Twitter? Escala Likert 0 (Muy a disgusto) - 5 (Muy a gusto)</p></dd>
-<dt>exp_tw3</dt><dd><p>¿Crees que el ambiente en Twitter (en tu experiencia personal) es más negativo o más positivo? Escala Likert 0 (Completamente negativo) - 5 (Completamente positivo)</p></dd>
-<dt>exp_tw4</dt><dd><p>¿Crees que el ambiente en Twitter (en tu experiencia personal) es más competitivo o más cooperativo?) Escala Likert 0 (Completamente competitivo) - 5 (Completamente cooperativo)</p></dd>
-<dt>comp1</dt><dd><p>¿Alguna vez has querido compartir algo en Twitter pero no lo has hecho por alguna razón?</p></dd>
-<dt>comp2_verg</dt><dd><p>¿Por qué fue? Vergüenza</p></dd>
-<dt>comp2_quediran</dt><dd><p>¿Por qué fue? Qué dirán</p></dd>
-<dt>comp2_calidad</dt><dd><p>¿Por qué fue? Contenido de calidad</p></dd>
-<dt>comp2_error</dt><dd><p>¿Por qué fue? Miedo a equivocarse</p></dd>
-<dt>comp2_conf</dt><dd><p>¿Por qué fue? Evitar confrontación</p></dd>
-<dt>comp2_nunca</dt><dd><p>¿Por qué fue? Nunca</p></dd>
-<dt>comp3_divulg</dt><dd><p>¿Qué tipo de contenido era? Divulgación</p></dd>
-<dt>comp3_apren</dt><dd><p>¿Qué tipo de contenido era? Algo que había aprendido</p></dd>
-<dt>comp3_deb_cien</dt><dd><p>¿Qué tipo de contenido era? Debate científico</p></dd>
-<dt>comp3_deb_poli</dt><dd><p>¿Qué tipo de contenido era? Debate político/personal</p></dd>
-<dt>comp3_pers</dt><dd><p>¿Qué tipo de contenido era? Experiencia personal</p></dd>
-<dt>comp3_nunca</dt><dd><p>¿Qué tipo de contenido era? Nunca</p></dd>
-<dt>psico_tw1</dt><dd><p>¿Te consideras parte de "Psicotwitter"? 1) Sí, 2) Puede, 3) No, pero me gustaría, 4) No, y no me gustaría</p></dd>
-<dt>psico_tw2</dt><dd><p>¿Qué te parece el término "Psicotwitter"? Escala Likert 0 (No me gusta nada) - 5 (Me encanta)</p></dd>
-<dt>psico_tw3</dt><dd><p>¿Crees que el término "Psicotwitter" (en tu experiencia personal) es más negativo o más positivo? Escala Likert 0 (Completamente negativo) - 5 (Completamente positivo</p></dd>
-
-</dl>
-
-    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
-
-    <p><a href='https://twitter.com/AliciaFrancoXVE/status/1352342172750786560?s=20'>https://twitter.com/AliciaFrancoXVE/status/1352342172750786560?s=20</a></p>
+    <p>Devuelve la tabla de porcentajes para cada valor de la variable</p>
     <h2 class="hasAnchor" id="author"><a class="anchor" href="#author"></a>Author</h2>
 
     <p>Alicia Franco-Martínez</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><span class='r-in'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>"clima"</span><span class='op'>)</span></span>
+<span class='r-in'><span class='fu'>muestrame</span><span class='op'>(</span>variable <span class='op'>=</span> <span class='va'>clima</span><span class='op'>[</span><span class='st'>"psico1"</span><span class='op'>]</span>, titulo <span class='op'>=</span> <span class='st'>"GrÃ¡fica Psico1"</span>, etiqueta_x <span class='op'>=</span> <span class='st'>"Nivel de Psico"</span><span class='op'>)</span></span>
+<span class='r-plt img'><img src='muestrame-1.png' alt='' width='700' height='433' /></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> variable</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>     Grado   Interes  Posgrado Profesion </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>        31         9        30        30 </span>
 </pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
