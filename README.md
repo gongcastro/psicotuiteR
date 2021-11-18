@@ -3,7 +3,7 @@
 
 Este es un paquete de R para la comunidad de Psicotwitter. Puedes
 consultar la documentación en la [página
-web](https://gongcastro.github.io/psicotwitteR/).
+web](https://gongcastro.github.io/psicotuiteR/).
 
 # psicotuiteR <img src='man/figures/logo.png' align="right" height="139" />
 
