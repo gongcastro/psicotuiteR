@@ -115,7 +115,8 @@
 <p>Cuando programamos, es común que necesitemos ejecutar la misma línea de código varias veces. Cuando esto ocurre, en lugar de escribir y ejecutar la misma línea de código una y otra vez en la consola de R, podemos escribir un <em>script</em>. Un script de R es un archivo con la extensión <code>.R</code><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> que contiene las diferentes líneas de código que queremos ejecutar.</p>
 <p>A veces el mismo script contiene líneas de código muy parecidas que ejecutamos para aplicar, por ejemplo, la misma función sobre objetos diferentes. Por ejemplo:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/stats/lm.html">lm</a></span><span class="op">(</span><span class="va">x</span> <span class="op">~</span> <span class="va">y</span>, data <span class="op">=</span> <span class="va">df1</span><span class="op">)</span>
+<code class="sourceCode R">
+<span class="fu"><a href="https://rdrr.io/r/stats/lm.html">lm</a></span><span class="op">(</span><span class="va">x</span> <span class="op">~</span> <span class="va">y</span>, data <span class="op">=</span> <span class="va">df1</span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/stats/lm.html">lm</a></span><span class="op">(</span><span class="va">x</span> <span class="op">~</span> <span class="va">y</span>, data <span class="op">=</span> <span class="va">df2</span><span class="op">)</span></code></pre></div>
 <p>En el bloque de código de arriba, <code>df1</code> y <code>df2</code> son objetos de tipo <em>data.frame</em> con variables similares pero diferentes observaciones. Idealmente, <strong>no deberíamos repetir la misma línea de código más de una vez</strong>. Digo idealmente porque la alternativa es escribir una función. No siempre merece la pena hacer una función, por mucho que la gente más purista insista. Si estás leyendo esto, doy por hecho que te interesa hacer tu código más conciso y replicable.</p>
 <p>En ese caso es generalmente recomendable definir una serie de <strong>funciones</strong> antes de trabajar sobre tus datos. Una <strong>función</strong> es un conjunto de comandos que se ejecutan en orden cuando damos la orden<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>. Estos comandos se agrupan bajo el nombre que asignemos a la función. Así podemos condensar nuestro código en funciones para que sea más conciso.</p>
@@ -149,16 +150,24 @@
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">create_package</span><span class="op">(</span>path <span class="op">=</span> <span class="st">"psicotuiteR"</span><span class="op">)</span> <span class="co"># abre nueva ventana</span></code></pre></div>
 <p>Este comando creará una <strong>nueva carpeta</strong>. Lo hará dentro de tu repositorio de inicio, el cual puedes consultar ejecutando <code><a href="https://rdrr.io/r/base/getwd.html">getwd()</a></code> en tu consola. Esta carpeta contendrá varios archivos y una carpeta:</p>
+<pre><code>#&gt;               levelName
+#&gt; 1 .                    
+#&gt; 2  ¦--.gitignore       
+#&gt; 3  ¦--.Rbuildignore    
+#&gt; 4  ¦--DESCRIPTION      
+#&gt; 5  ¦--NAMESPACE        
+#&gt; 6  ¦--psicotuiteR.Rproj
+#&gt; 7  °--R</code></pre>
 <p><strong>Importante</strong>: los nombres de la mayoría de archivos y carpetas en este directorio son importantes. Trata de no cambiarlos si no es imprescindible.</p>
 <p>Uno de los archivos en la carpeta tiene el mismo nombre que el paquete y la extensión <code>.Rproj</code>. Cada vez que queramos trabajar en nuestro paquete es recomendable abrir la sesión de RStudio haciendo doble click sobre el archivo <code>.Rproj</code>. Veremos qué son el resto de archivos más adelante.</p>
 <p>Pues bien: técnicamente, ¡ya tenemos un paquete de R! Si ejecutamos el código de abajo, el paquete se instalará como si fuera uno más en nuestro directorio de paquetes de R.</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install</span><span class="op">(</span><span class="op">)</span></code></pre></div>
 <p>Encontrarás la carpeta de instalación junto a la de los demás paquetes que hays instalado en tu ordenador. Puedes consultar dónde se instalan tus paquetes de R ejecutando <code><a href="https://rdrr.io/r/base/libPaths.html">.libPaths()</a></code> en tu consola. La primera ruta que aparezca será donde encontrarás tu paquete instalado (en mi caso, encontraré la carpeta <code>~/Documents/R/win-library/4.0/psicotuiteR</code>).</p>
 <p>La función que hemos ejecutado, <strong><code>install()</code></strong> del paquete devtools simula lo que otra persona haría al ejecutar la función <code><a href="https://rdrr.io/r/utils/install.packages.html">install.packages()</a></code> si nuestro paquete estuviera disponible en CRAN. Ahora mismo, podríamos cargar nuestro paquete con <code><a href="https://gongcastro.github.io/psicotuiter/">library(psicotuiteR)</a></code> y trabajar con él. Por supuesto, nuestro paquete aún está vacío. En las próximas secciones veremos cómo añadir funciones, entre otras cosas, a nuestro paquete.</p>
 <p>Antes de hacer eso, ahí va un truco: cuando añadimos o hacemos cambios en el paquete, necesitaremos actualizar nuestra sesión y cargar el paquete de nuevo y volver a ejecutar las funciones para comprobar que todo funciona correctamente. En lugar de ejecutar <code>install()</code> cada vez que queremos ver si nuestro paquete funciona, podemos ejecutar <strong><code>load_all()</code></strong> (también del paquete devtools) sin siquera reiniciar la sesión y así cargar de nuevo el paquete actualizado como si alguien hubiera cargado el paquete usando <code><a href="https://rdrr.io/r/base/library.html">library()</a></code>. Los contenidos del paquete que se cargarán usando <code>load_all()</code> son los que hay en el nuestro repositorio (desde el que estamos desarrollando el paquete), y no desde el directorio en el que se instala el paquete si ejecutamos <code>install()</code>. ¡Esto es mucho más rápido y eficiente!</p>
 <p>Otro truco: puesto que vamos a utilizar las funciones de los paquetes devtools y usethis a menudo–y por lo tanto vamos a necesitar cargar estos paquetes mediante <code><a href="https://devtools.r-lib.org/">library(devtools)</a></code> y <code><a href="https://usethis.r-lib.org">library(usethis)</a></code> cada vez que iniciemos una sesión de R– podría ser recomendable añadir esos dos comandos a nuestro archivo <strong>.Rprofile</strong> (ver esta <a href="https://support.rstudio.com/hc/en-us/articles/360047157094-Managing-R-with-Rprofile-Renviron-Rprofile-site-Renviron-site-rsession-conf-and-repos-conf">guía</a> para más información sobre .Rprofile. Las líneas de código que contenga ese archivo serán ejecutadas en cada inicio de sesión que hagamos en nuestro proyecto de RStudio. Podemos hacer esto usando las siguientes funciones de usethis:</p>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://usethis.r-lib.org">usethis</a></span><span class="op">)</span>
 <span class="fu">use_usethis</span><span class="op">(</span><span class="op">)</span> 
 <span class="fu">use_devtools</span><span class="op">(</span><span class="op">)</span></code></pre></div>
@@ -174,7 +183,7 @@
 <h2 class="hasAnchor">
 <a href="#funciones-en-r" class="anchor"></a>Funciones en R</h2>
 <p>Las funciones de R son el cuerpo principal de un paquete de R. Contienen el <strong>código que se ejecutará en nuestras funciones</strong> y su correspondiente <strong>documentación</strong>. Las funciones de por sí no tienen gran misterio. Las puedes hacer más simples o más complejas. Generalmente, por motivos de legibilidad suele ser mejor mantener nuestras funciones lo más simples que podamos. <strong>Es mejor escribir muchas funciones que hacen tareas pequeñas que pocas funciones que lo hacen todo</strong>. No tienes por qué hacer disponibles todas las funciones que escribas: puedes mantener algunas funciones para uso interno dentro de otras funciones que sí están disponibles al público (ahora veremos cómo). Hay muchos tutoriales para aprender a hacer funciones en R. Por ejemplo <a href="https://r-coder.com/function-r/">este</a>. Merece la pena ganar algo de confianza en poder hacer funciones de R: empodera mucho y te hace entender muchos de los errores que te encontrarás a lo largo de tu vida programando en R. Ahí va un ejemplo de función muy simple:</p>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">print_name</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span>
     <span class="va">author</span> <span class="op">=</span> <span class="st">"Gon"</span>
 <span class="op">)</span><span class="op">{</span>
@@ -182,12 +191,21 @@
 <span class="op">}</span></code></pre></div>
 <p>Esas líneas de código definen la función <code>print_name()</code>. Esta función incluye un argumento llamado <em>author</em>, que, por defecto, toma el valor <code>"Gon"</code>. Si definimos la función y ejecutamos <code>print_name()</code> en nuestra consola de R, nos devolverá el valor `“Gon”.</p>
 <p>Guardaremos esta función en un archivo con la extensión .R dentro de la carpeta R/ en nuestro repositorio principal (el nombre que pongamos a este archivo da igual, pero trata de que sea informativo de su contenido). Yo llamaré a este archivo <code>print_name.R</code>. Ahora nuestro directorio se ve así:</p>
+<pre><code>#&gt;               levelName
+#&gt; 1 .                    
+#&gt; 2  ¦--.gitignore       
+#&gt; 3  ¦--.Rbuildignore    
+#&gt; 4  ¦--DESCRIPTION      
+#&gt; 5  ¦--NAMESPACE        
+#&gt; 6  ¦--psicotuiteR.Rproj
+#&gt; 7  °--R                
+#&gt; 8      °--print_name.R</code></pre>
 </div>
 <div id="documentación" class="section level2">
 <h2 class="hasAnchor">
 <a href="#documentaci%C3%B3n" class="anchor"></a>Documentación</h2>
 <p>Ahora vamos a <strong>documentar esa función</strong>. R utiliza un tipo de lenguaje parecido a LaTeX para escribir la documentación de un paquete. Este lenguaje se llama <strong>R documentation</strong>. Técnicamente, podríamos escribir toda la documentación de cada función de nuestro paquete en este lenguaje y guardar cada archivo en la carpeta man/ con la extensión .Rd. En esta carpeta es donde R espera encontrar la documentación. Gracias a Dios (y a la buena voluntad de la comunidad de R), podemos incluir los contenidos de esos archivos como si fueran comentarios en nuestros scripts de R, encima de cada función. La función <strong><code>document()</code></strong> de devtools se encargará de generar todos los .Rd necesarios en la carpeta man/ por nosotrxs. Volveremos a esto más adelante. Por ahora, observa un ejemplo de función documentada:</p>
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co">#' Print author</span>
 <span class="co">#' @export print_name</span>
 <span class="co">#' @usage print_author()</span>
@@ -203,7 +221,7 @@
 <span class="op">}</span></code></pre></div>
 <p>En la parte de abajo encontramos las mismas líneas de código que hemos visto antes. En la parte de arriba encontramos la documentación de la función. Estas líneas de código están <strong>precedidas por el símbolo <code>#'</code></strong>. La apóstrofe indica que no es un comentario cualquiera, sino parte de la documentación de la función. En la mayoría de estas líneas indicamos mediante el símbolo <strong><code>@</code></strong> qué campo estamos describiendo (autoría, descripción, un argumento, etc.).</p>
 <p>Por ejemplo, la línea de abajo indica que estamos describiendo uno de los argumentos de la función (por alguna razón que desconozco, se ha decidido refererirse a los argumentos como “<code>@param</code>” y no como <code>@arg</code>"). La primera línea se asume que es el título de la función y por eso no hace falta indicar <code>@title</code> antes de <code>"Print author"</code>.</p>
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co">#' @param author Name of the package author</span></code></pre></div>
 <p>Una vez hayamos rellenado la documentación de nuestra función, ejecutaremos <code>document()</code> y se generará automáticamente un archivo llamado <code>print_name.Rd</code> en la carpeta man/. Podemos comprobar que la documentación se ha guardado correctamente ejecutando <code>?print_name</code>. Se debería abrir la ventana <em>Help</em> en uno de los paneles de RStudio. Algunos consejos cuando rellenes la documentación de tus funciones:</p>
 <ul>
@@ -214,12 +232,12 @@
 <h3 class="hasAnchor">
 <a href="#vi%C3%B1etas-y-art%C3%ADculos" class="anchor"></a>Viñetas y artículos</h3>
 <p>Una forma más elaborada de documentar un paquete es crear <strong>viñetas</strong>. Una viñeta (o <em>vignette</em>, en inglés) es un documento en el que se explica con detalle cómo se trabaja con el paquete, como si fuera un <strong>tutorial</strong>. Las viñetas son particularmente útiles para quienes usan el paquete por primera vez, y deberían ilustrar, como mínimo, algún ejemplo sobre cómo se usan las funciones. Un buen ejemplo de viñeta es <a href="https://dplyr.tidyverse.org/articles/grouping.html">esta</a>, del paquete {dplyr}, en la que indican cómo usar la función <code>group_by()</code>. Para crear una viñeta ejecutaremos el siguiente comando:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="kw">use_vignette</span>(</span>
-<span id="cb9-2"><a href="#cb9-2"></a>  <span class="dt">name =</span> <span class="st">"print-name"</span> <span class="co"># así se llamará el archivo,</span></span>
-<span id="cb9-3"><a href="#cb9-3"></a>  <span class="dt">title =</span> <span class="st">"Imprimiendo un nombre"</span> <span class="co"># así se titulará la viñeta</span></span>
-<span id="cb9-4"><a href="#cb9-4"></a>)</span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="kw">use_vignette</span>(</span>
+<span id="cb11-2"><a href="#cb11-2"></a>  <span class="dt">name =</span> <span class="st">"print-name"</span> <span class="co"># así se llamará el archivo,</span></span>
+<span id="cb11-3"><a href="#cb11-3"></a>  <span class="dt">title =</span> <span class="st">"Imprimiendo un nombre"</span> <span class="co"># así se titulará la viñeta</span></span>
+<span id="cb11-4"><a href="#cb11-4"></a>)</span></code></pre></div>
 <p>Este comando creará una carpeta llamada <strong>vignettes/</strong> y creará un archivo con la extensión .Rmd (Rmarkdown). Los archivos Rmarkdown son una mezcla entre un archivo <strong>Markdown</strong> (que tienen la extensión .md) y un script de R. Markdown es un lenguaje de edición de textos bastante sencillo (desde luego más sencillo que LaTeX). Rmarkdown permite intercalar bloques de código de R en medio del texto. Cuando renderizamos el documento, esos bloques de código se ejecutan y el resultado se incluye como texto o imagen. Este tipo de documentos son muy útiles para crear informes y actualizar los datos que incluyen con sólo un click. Si quieres aprender a user Rmarkdown (100% recomendado), el manual <a href="https://bookdown.org/yihui/rmarkdown/"><strong>R Markdown: The Definitive Guide</strong></a> de Yihui Xie es el mejor recurso. Una vez escribamos nuestra viñeta podremos incluirla en nuestra documentación ejecutando:</p>
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">build_vignettes</span><span class="op">(</span><span class="op">)</span>
 <span class="fu">document</span><span class="op">(</span><span class="op">)</span></code></pre></div>
 <p>Como dato curioso, este mismo tutorial que estás leyendo es una viñeta incluida en el paquete psicotuiteR. Muy meta todo, ¿verdad?</p>
@@ -229,7 +247,7 @@
 <h2 class="hasAnchor">
 <a href="#dependencias-y-otras-pesadillas" class="anchor"></a>Dependencias y otras pesadillas</h2>
 <p>Con frecuencia, nuestras funciones de R dependerán, a su vez de funciones de otros paquetes. Considera la siguiente función:</p>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co">#' Una función que añade una variable</span>
 <span class="co">#' @param x Una serie de caracteres</span>
 <span class="co">#' @returns El número incluido en x</span>
@@ -242,10 +260,10 @@
 <li>Ejecutar <strong><code>use_package("stringr")</code></strong> para incluir stringr en la lista de paquetes que deben instalarse junto al nuestro. Al hacerlo, verás que stringr ha sido incluido en el campo <em>Imports</em> del archivo DESCRIPTION.</li>
 <li>Incluir la función <strong><code>str_extract</code></strong> del paquete stringr en la documentación de la función de la siguiente forma:</li>
 </ol>
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co">#' @importFrom stringr str_extract</span></code></pre></div>
 <p>Ahora nuestra función debería verse así:</p>
-<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co">#' Una función que añade una variable</span>
 <span class="co">#' @param x Una serie de caracteres</span>
 <span class="co">#' @importFrom stringr str_extract</span>
@@ -255,13 +273,13 @@
   <span class="kw"><a href="https://rdrr.io/r/base/function.html">return</a></span><span class="op">(</span><span class="va">y</span><span class="op">)</span>
 <span class="op">}</span></code></pre></div>
 <p>La función <code>str_extract</code> estará disponible y nuestra función podrá ejecutarse sin problemas. Otra opción sería <strong>importar el paquete stringr al completo</strong>, con todas sus funciones. En lugar de indicar <span class="citation">@importFrom</span> con el nombre del paquete y la función que queremos importar, indicaríamos <code>@import</code> y solamente nombre del paquete: <code>#' @import stringr</code>. Sin embargo, <strong>casi siempre es mejor indicar las dependencias una a una</strong>, aunque sea repetitivo: así será más fácil detectar de dónde viene cada función que usamos. Si vamos a usar varias funciones del mismo paquete, podemos indicarlas una debajo de otra:</p>
-<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co">#' @importFrom stringr str_extract</span>
 <span class="co">#' @importFrom stringr str_detect</span>
 <span class="co">#' @importFrom stringr str_replace</span></code></pre></div>
 <p>Sólo en el caso de que utilicemos muchísimas funciones del mismo paquete en nuestra función tendrá cierto sentido importar el paquete al completo. <strong>Las dependencias de nuestro paquete sólo estará disponibles cuando ejecutemos <code>document()</code> y se actualice la documentación</strong>. Esto es porque <code>document()</code> no sólo construye la documentación del paquete (los archivos .Rd en man/), sino que también modifica el archivo NAMESPACE para enumerar las dependencias. Echa un vistazo a <a href="https://github.com/gongcastro/psicotuiteR/blob/082bb32fd9bdc95e21414d72a07dd586fd82a37a/NAMESPACE">NAMESPACE</a> de psicotuiteR. Este archivo ha sido generado al ejecutar <code>document()</code>. Una de nuestras funciones incluye <code>#' @import janitor clean_names</code> y por tanto esta función ha sido incluida en el NAMESPACE.</p>
 <p>Hemos aprendido a indicar dependencias de otros paquetes en nuestro código através de la documentación: funciones que nuestras propias funciones necesitan. Para hacer nuestras funciones disponibles en el paquete, necesitaremos incluirlas también en el NAMESPACE, pero no como dependencias, sino como <strong>exportaciones</strong>: en lugar de incluirlas en la documentación usando <code>@importFrom</code>, lo haremos usando <code>#' @export</code>. Volviendo al ejemplo anterior: <code>#' @export extrae_numeros</code>. Nuestra función se ver ahora así:</p>
-<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co">#' Una función que añade una variable</span>
 <span class="co">#' @export extrae_numeros</span>
 <span class="co">#' @param x Una serie de caracteres</span>
@@ -282,14 +300,45 @@
 <h2 class="hasAnchor">
 <a href="#datos-internos-datos-externos-datos-brutos" class="anchor"></a>Datos internos, datos externos, datos brutos</h2>
 <p>Muchos paquetes incluyen objetos del tipo <em>data.frame</em>. Por ejemplo, el paquete {dplyr} contiene el objeto <code>starwars</code>. Este objeto es un data.frame con información sobre muchos personajes del universo de Star Wars. Podemos acceder a este objeto así <code><a href="https://dplyr.tidyverse.org/reference/starwars.html">dplyr::starwars</a></code>.</p>
+<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="fu">dplyr</span><span class="fu">::</span><span class="va"><a href="https://dplyr.tidyverse.org/reference/starwars.html">starwars</a></span><span class="op">)</span>
+<span class="co">#&gt; # A tibble: 6 × 14</span>
+<span class="co">#&gt;   name     height  mass hair_color  skin_color eye_color birth_year sex   gender</span>
+<span class="co">#&gt;   &lt;chr&gt;     &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;       &lt;chr&gt;      &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; </span>
+<span class="co">#&gt; 1 Luke Sk…    172    77 blond       fair       blue            19   male  mascu…</span>
+<span class="co">#&gt; 2 C-3PO       167    75 &lt;NA&gt;        gold       yellow         112   none  mascu…</span>
+<span class="co">#&gt; 3 R2-D2        96    32 &lt;NA&gt;        white, bl… red             33   none  mascu…</span>
+<span class="co">#&gt; 4 Darth V…    202   136 none        white      yellow          41.9 male  mascu…</span>
+<span class="co">#&gt; 5 Leia Or…    150    49 brown       light      brown           19   fema… femin…</span>
+<span class="co">#&gt; 6 Owen La…    178   120 brown, grey light      blue            52   male  mascu…</span>
+<span class="co">#&gt; # … with 5 more variables: homeworld &lt;chr&gt;, species &lt;chr&gt;, films &lt;list&gt;,</span>
+<span class="co">#&gt; #   vehicles &lt;list&gt;, starships &lt;list&gt;</span></code></pre></div>
 <p>Este objeto está documentado: si ejecutamos <code><a href="https://dplyr.tidyverse.org/reference/starwars.html">?dplyr::starwars</a></code> se abrirá el panel de documentación de RStudio. Este tipo de objetos son muy útiles para mostrar ejemplos de uso de las funciones de un paquete. Algunos paquetes incluso han sido diseñados con el único propósito de compartir una base de datos documentada, como por ejemplo el paquete {palmerpenguins}, que apenas contiene el objeto <code>penguins</code>: una base de datos sobre la anatomía demlos pingüinos de la Isla de Palmer. En esta sección veremos cómo incluir una base de datos como ésta en nuestro paqeute de R y cómo documentarla.</p>
 <div id="datos-internos-y-externos" class="section level3">
 <h3 class="hasAnchor">
 <a href="#datos-internos-y-externos" class="anchor"></a>Datos internos y externos</h3>
 <p>Podemos incluir un data.frame en nuestro paquete de dos formas: como un objeto interno o como un objeto externo. Hacerlo de la primera forma es el equivalente a crear una función sin exportarla al NAMESPACE: nos sirve para utilizarla dentro de las funciones internas del paquete, pero no será inmediatamente visible para quien cargue el paquete usando <code>library</code> (aunque igualmente podrá hacerlo usando el operador <code>:::</code>). Cuando incluimos el data.frame como objeto externo, sí se podrá acceder a él cuando cargemos el paquete (o mediante el operador <code>::</code>).</p>
 <p>Para guardar un data.frame de cualquiera de las dos formas, primero debemos tenerlo definido entre lase variables de nuestra sesión. Por ejemplo, supón que hemos definido el data.frame <code>clima</code> (disponible en el paquete psicotuiteR):</p>
+<div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">clima</span><span class="op">)</span>
+<span class="co">#&gt; # A tibble: 6 × 37</span>
+<span class="co">#&gt;      id lugar  genero     psico1    psico2 psico3 tw1    tw2   tw_pers tw_divulg</span>
+<span class="co">#&gt;   &lt;int&gt; &lt;chr&gt;  &lt;chr&gt;      &lt;chr&gt;      &lt;int&gt;  &lt;int&gt; &lt;chr&gt;  &lt;chr&gt;   &lt;int&gt;     &lt;int&gt;</span>
+<span class="co">#&gt; 1     1 Europa Mujer      Posgrado       3      4 Mas d… Vari…       4         3</span>
+<span class="co">#&gt; 2     2 Europa Hombre     Posgrado       1      5 Mas d… Vari…       4         2</span>
+<span class="co">#&gt; 3     3 Europa No binarie Posgrado       4      3 Menos… Vari…       4         2</span>
+<span class="co">#&gt; 4     4 Europa Hombre     Posgrado       4      3 Mas d… Vari…       5         5</span>
+<span class="co">#&gt; 5     5 Europa Hombre     Posgrado       5      1 Mas d… Vari…       4         2</span>
+<span class="co">#&gt; 6     6 Europa Hombre     Profesion      5      3 Mas d… Vari…       1         4</span>
+<span class="co">#&gt; # … with 27 more variables: tw_anonim &lt;int&gt;, tw_tuits &lt;int&gt;,</span>
+<span class="co">#&gt; #   tw_hilos_div &lt;int&gt;, tw_hilos_ot &lt;int&gt;, tw_rt &lt;int&gt;, tw_like &lt;int&gt;,</span>
+<span class="co">#&gt; #   tw_resp &lt;int&gt;, exp_tw1 &lt;int&gt;, exp_tw2 &lt;int&gt;, exp_tw3 &lt;int&gt;, exp_tw4 &lt;int&gt;,</span>
+<span class="co">#&gt; #   comp1 &lt;chr&gt;, comp2_verg &lt;int&gt;, comp2_quediran &lt;int&gt;, comp2_calidad &lt;int&gt;,</span>
+<span class="co">#&gt; #   comp2_error &lt;int&gt;, comp2_conf &lt;int&gt;, comp2_nunca &lt;int&gt;, comp3_divulg &lt;int&gt;,</span>
+<span class="co">#&gt; #   comp3_apren &lt;int&gt;, comp3_deb_cien &lt;int&gt;, comp3_deb_poli &lt;int&gt;,</span>
+<span class="co">#&gt; #   comp3_pers &lt;int&gt;, comp3_nunca &lt;int&gt;, psico_tw1 &lt;chr&gt;, psico_tw2 &lt;int&gt;, …</span></code></pre></div>
 <p>Utilizaremos la función <code>use_data()</code> del paquete usethis para incluirlo en nuestro paquete. Si queremos exportarlo al NAMESPACE especificaremos <code>internal = FALSE</code> en los argumentos de la función (opción por defecto). Si no queremos exportarlo especificaremos <code>internal = TRUE</code>:</p>
-<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">use_data</span><span class="op">(</span><span class="va">clima</span><span class="op">)</span> <span class="co"># objeto externo</span>
 <span class="fu">use_data</span><span class="op">(</span><span class="va">clima</span>, internal <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="co"># objeto interno</span></code></pre></div>
 <p>Esta función creará (en caso de que no exita ya) una carpeta en nuestro directorio llamada data/ y guardará el data.frame como un archivo .rds (como un objeto de R), en nuestro caso lo guardará con el nombre <code>clima.rds</code>. En el caso de que el objeto ya exista, debemos incluir <code>overwrite = TRUE</code> en los argumentos para que nos permita sobreescribirlo.</p>
@@ -299,7 +348,7 @@
 <h3 class="hasAnchor">
 <a href="#datos-brutos" class="anchor"></a>Datos brutos</h3>
 <p>Hay una forma más de incluir datos, aun más reproducible que la anterior: incluir los datos brutos, como un archivo .csv, .txt, .tsv, .xlsx, etc., y he incluir en nuestro paquete el script de R con el código de R que hemos usando para procesar los datos contenidos en el archivo y llegar a la forma final del objeto que guaradamos mediante <code>use_data()</code>. La función <code>use_raw_data()</code> del paquete usethis se encarga de esto.</p>
-<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb21"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">use_raw_data</span><span class="op">(</span><span class="op">)</span></code></pre></div>
 <p>Esta función creará dos carpetas (en caso de que no existan ya): inst/ y data-raw/. La carpeta inst/ (abreviatura de <em>installation</em>) de un paquete de R incluye archivos externos (por ejemplo, TXT, scripts de Python, Stan, C++…) que queremos que estén disponibles cuando alguien cargue el paquete, pero no son archivos que normalmente se incluyan en un paquete. Es recomendable guardar el archivo con nuestros datos brutos en la carpeta inst/. En la carpeta data-raw/ se creará un archivo con la extensión .R. En este archivo (que se abrirá automáticamente cuando ejecutemos <code>use_data_raw()</code>) escribiremos el código que procesa los datos y los deja como queremos que se guarden en el paquete. La última línea del script (incluida por defecto) guarda el objeto resultante como datos externos mediante la función <code>use_data()</code>. Así, cada vez que queramos actualizar el objeto, sólo tendremos que ejecutar este código.</p>
 </div>
@@ -307,9 +356,9 @@
 <h3 class="hasAnchor">
 <a href="#archivos-externos-e-inst" class="anchor"></a>Archivos externos e inst/</h3>
 <p>Como hemos mencionado, cualquier archivo que queramos incluir en nuestro paquete y no tenga la extensión .R o .rds, debería estar dentro de la carpeta inst/. Cuando alguien instale el paquete, los archivos de esta carpeta se moverán al directorio principal del paquete. Puedes hacer la prueba ejecutando la función <code>install()</code> de devtools. Cuando lo hayas hecho ve a la carpeta del paquete (recuerda que los paquetes se instalan en la primera ruta que indique <code><a href="https://rdrr.io/r/base/libPaths.html">.libPaths()</a></code>). Cualquier archivo que hayas dejado en la carpeta inst/ aparecerá en el directorio principal ahora. A veces querremos acceder a estos archivos dentro de nuestras funciones. Esto puede ser un poco complicado. La práctica más recomendable es hacerlo usando la función:</p>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a><span class="kw">system.file</span>(<span class="st">"clima.csv"</span>, <span class="dt">package =</span> <span class="st">"psicotuiteR"</span>)<span class="st">`</span></span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a><span class="kw">system.file</span>(<span class="st">"clima.csv"</span>, <span class="dt">package =</span> <span class="st">"psicotuiteR"</span>)<span class="st">`</span></span></code></pre></div>
 <p>En la línea de código anterior, estaremos accediendo al archivo <code>clima.csv</code>, que hemos incluido en la carpeta inst/, pero que al instalar el paquete se encontrará en <code>~/Documents/R/win-library/4.0</code> (al menos en mi ordenador). Atención: si la función no encuentra ese archivo devolverá <code>""</code>, en lugar de un error. Esto puede llevar a confusión. Si quieres que la función devuelva un error si no encuentra el archivo, añade <code>mustWork = TRUE</code> a los argumentos:</p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a><span class="kw">system.file</span>(<span class="st">"clima.csv"</span>, <span class="dt">package =</span> <span class="st">"psicotuiteR"</span>, <span class="dt">mustWork =</span> <span class="ot">TRUE</span>)<span class="st">`</span></span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1"></a><span class="kw">system.file</span>(<span class="st">"clima.csv"</span>, <span class="dt">package =</span> <span class="st">"psicotuiteR"</span>, <span class="dt">mustWork =</span> <span class="ot">TRUE</span>)<span class="st">`</span></span></code></pre></div>
 </div>
 </div>
 <div id="manteniendo-y-compartiendo-el-paquete" class="section level2">
@@ -324,7 +373,7 @@
 <p>Para hacerlo, primero debemos crear un usuario de GitHub, crear un nuevo repositorio, hacer click en el botón verde que dice “Code”, y copiar el enlace que aparece.</p>
 <p><img src="img/github_code.png"></p>
 <p>En nuestra sesión de R, ejecutamos las siguientes líneas de código:</p>
-<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb24"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">use_git</span><span class="op">(</span><span class="op">)</span> <span class="co"># esta línea inicializa Git en el repositorio</span>
 <span class="fu">use_git_remote</span><span class="op">(</span>name <span class="op">=</span> <span class="st">"origin"</span>, url <span class="op">=</span> <span class="st">"https://github.com/gongcastro/psicotuiteR.git"</span><span class="op">)</span> <span class="co"># sustituye ese link por el que hayas copiado de GitHub</span>
 <span class="fu">use_github_ignore</span><span class="op">(</span><span class="op">)</span> <span class="co"># crea un archivo llamado .gitignore que indica a Git qué archivos ignorar</span>
@@ -336,7 +385,7 @@
 </h3>
 <p>Los cambios que introducimos en nuestras funciones de R pueden provocar que fallos que a veces no detectamos inmediatamente. Algunos fallos no producen un error, sino que hacen que nuestras funciones se comporten de forma diferente a la que esperamos. Por ejemplo, un <em>data.frame</em> que devuelve nuestra función podría contener una variable con una clase <em>character</em> en lugar de <em>logical</em>. Este comportamiento indeseado podría pasar desapercibido cuando probemos las funciones que hemos cambiado. Para detectar estos problemas debemos poner a prueba todo el código cada vez que hacemos cambios. Hacer esto de forma manual cada vez puede ser muy tedioso. El paquete {testthat} se encarga de hacer esto por nosotros.</p>
 <p>Si ejecutamos <code>use_testhat</code>, se creará una carpeta llamada <em>tests</em> en nuestro repositorio. Dentro de esta carpeta, hay otra carpeta llamada <em>testthat</em>. Cualquier script de R que guardemos en esa carpeta se ejecutará automáticamente cuando ejecutemos <code>test()</code> en nuestra consola. Estos scripts deberían seguir tener el siguiente contenido:</p>
-<div class="sourceCode" id="cb21"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb25"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">test_that</span><span class="op">(</span><span class="st">"Los datos de clima se cargan correctamente"</span>, <span class="op">{</span><span class="fu">expect_error</span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"clima"</span><span class="op">)</span>, <span class="cn">NA</span><span class="op">)</span><span class="op">}</span><span class="op">)</span></code></pre></div>
 <p>En esta línea de código estamos creando un test mediante la función <code>test_that</code> (del paquete {testhat}). Primero incluimos un mensaje que indique qué estamos “testeando” en específico (en este caso, que podemos cargar el dataset <code>clima</code> sin error. La función <code>expect_error</code> ejecuta el código de dentro, y evalúa si el resultado se corresponde con lo que indiquemos en el segundo argumento (en nuestro caso <code>NA</code>, que signifique que no hay fallo). Para ver con más detalle cómo poner a prueba el paquete que has creado, y aprender buenas prácticas en este tema puedes ver la documentación del paquete {testhat}.</p>
 </div>
