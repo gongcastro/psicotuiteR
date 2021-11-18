@@ -2,7 +2,9 @@
 
 export("%>%")
 export(muestrame)
+importFrom(graphics,barplot)
 importFrom(janitor,clean_names)
 importFrom(magrittr,"%>%")
 importFrom(tibble,tibble)
+importFrom(utils,data)
 importFrom(wesanderson,wes_palette)

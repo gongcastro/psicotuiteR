@@ -18,8 +18,7 @@ knitr::opts_chunk$set(
 ```{r setup, echo = FALSE, include = FALSE, warning=FALSE}
 knitr::opts_chunk$set(
 	message = FALSE,
-	warning = FALSE,
-	include = FALSE
+	warning = FALSE
 )
 library(psicotuiteR)
 ```
@@ -39,9 +38,11 @@ Cuando programamos, es común que necesitemos ejecutar la misma línea de códig
 A veces el mismo script contiene líneas de código muy parecidas que ejecutamos para aplicar, por ejemplo, la misma función sobre objetos diferentes. Por ejemplo:
 
 ```r
+
 lm(x ~ y, data = df1)
 lm(x ~ y, data = df2)
-```
+
+``` 
 
 En el bloque de código de arriba, `df1` y `df2` son objetos de tipo *data.frame* con variables similares pero diferentes observaciones. Idealmente, **no deberíamos repetir la misma línea de código más de una vez**. Digo idealmente porque la alternativa es escribir una función. No siempre merece la pena hacer una función, por mucho que la gente más purista insista. Si estás leyendo esto, doy por hecho que te interesa hacer tu código más conciso y replicable.
 
